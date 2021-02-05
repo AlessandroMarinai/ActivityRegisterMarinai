@@ -1,0 +1,74 @@
+{
+	"BUILD_DIR" : "/home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/core_autogen",
+	"CMAKE_BINARY_DIR" : "/home/simone/CLionProjects/qtHelloWorld/cmake-build-debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/simone/CLionProjects/qtHelloWorld/cmake-build-debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/simone/CLionProjects/qtHelloWorld",
+	"CMAKE_EXECUTABLE" : "/home/simone/Downloads/clion-2020.1.2/bin/cmake/linux/bin/cmake",
+	"CMAKE_SOURCE_DIR" : "/home/simone/CLionProjects/qtHelloWorld",
+	"HEADERS" : 
+	[
+		[
+			"/home/simone/CLionProjects/qtHelloWorld/Date.h",
+			"Mu",
+			"EWIEGA46WW/moc_Date.cpp"
+		],
+		[
+			"/home/simone/CLionProjects/qtHelloWorld/Schedule.h",
+			"Mu",
+			"EWIEGA46WW/moc_Schedule.cpp"
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/core_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/core_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : [],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/simone/CLionProjects/qtHelloWorld/cmake-build-debug",
+		"/home/simone/CLionProjects/qtHelloWorld",
+		"/usr/include/c++/7",
+		"/usr/include/x86_64-linux-gnu/c++/7",
+		"/usr/include/c++/7/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/7/include",
+		"/usr/local/include",
+		"/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed",
+		"/usr/include/x86_64-linux-gnu",
+		"/usr/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : true,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/home/simone/Downloads/clion-2020.1.2/bin/cmake/linux/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/core_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : 
+	[
+		"/home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/qtHelloWorld_autogen/mocs_compilation.cpp"
+	],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 2,
+	"PARSE_CACHE_FILE" : "/home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/CMakeFiles/core_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/lib/qt5/bin/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 5,
+	"SETTINGS_FILE" : "/home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/CMakeFiles/core_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[ "/home/simone/CLionProjects/qtHelloWorld/Date.cpp", "Mu" ]
+	],
+	"VERBOSITY" : 0
+}

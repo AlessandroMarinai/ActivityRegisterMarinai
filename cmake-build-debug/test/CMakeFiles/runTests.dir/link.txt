@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/runTests.dir/runTests_autogen/mocs_compilation.cpp.o CMakeFiles/runTests.dir/runAllTests.cpp.o CMakeFiles/runTests.dir/scheduleTest.cpp.o CMakeFiles/runTests.dir/dateTest.cpp.o  -o runTests  ../lib/libgtestd.a ../lib/libgtest_maind.a ../libcore.a ../lib/libgtestd.a -lpthread 
