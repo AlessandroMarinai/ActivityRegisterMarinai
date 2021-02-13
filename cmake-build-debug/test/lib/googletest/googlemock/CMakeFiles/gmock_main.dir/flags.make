@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTH
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/test/lib/googletest/googlemock -I/home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/test/lib/googletest/googlemock/gmock_main_autogen/include -isystem /home/simone/CLionProjects/qtHelloWorld/test/lib/googletest/googlemock -isystem /home/simone/CLionProjects/qtHelloWorld/test/lib/googletest/googlemock/include -isystem /home/simone/CLionProjects/qtHelloWorld/test/lib/googletest/googletest/include -isystem /home/simone/CLionProjects/qtHelloWorld/test/lib/googletest/googletest 
+CXX_INCLUDES = -I/home/simone/CLionProjects/ActivityRegister/cmake-build-debug/test/lib/googletest/googlemock -I/home/simone/CLionProjects/ActivityRegister/cmake-build-debug/test/lib/googletest/googlemock/gmock_main_autogen/include -isystem /home/simone/CLionProjects/ActivityRegister/test/lib/googletest/googlemock -isystem /home/simone/CLionProjects/ActivityRegister/test/lib/googletest/googlemock/include -isystem /home/simone/CLionProjects/ActivityRegister/test/lib/googletest/googletest/include -isystem /home/simone/CLionProjects/ActivityRegister/test/lib/googletest/googletest 
 

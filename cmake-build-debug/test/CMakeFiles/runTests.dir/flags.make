@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/test -I/home/simone/CLionProjects/qtHelloWorld/test -I/home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/test/runTests_autogen/include -isystem /home/simone/CLionProjects/qtHelloWorld/test/lib/googletest/googletest/include -isystem /home/simone/CLionProjects/qtHelloWorld/test/lib/googletest/googletest 
+CXX_INCLUDES = -I/home/simone/CLionProjects/ActivityRegister/cmake-build-debug/test -I/home/simone/CLionProjects/ActivityRegister/test -I/home/simone/CLionProjects/ActivityRegister/cmake-build-debug/test/runTests_autogen/include -isystem /home/simone/CLionProjects/ActivityRegister/test/lib/googletest/googletest/include -isystem /home/simone/CLionProjects/ActivityRegister/test/lib/googletest/googletest 
 

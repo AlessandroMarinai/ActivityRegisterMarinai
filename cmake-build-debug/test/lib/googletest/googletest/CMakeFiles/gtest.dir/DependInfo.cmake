@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/test/lib/googletest/googletest/gtest_autogen/mocs_compilation.cpp" "/home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/test/lib/googletest/googletest/CMakeFiles/gtest.dir/gtest_autogen/mocs_compilation.cpp.o"
-  "/home/simone/CLionProjects/qtHelloWorld/test/lib/googletest/googletest/src/gtest-all.cc" "/home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/test/lib/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
+  "/home/simone/CLionProjects/ActivityRegister/cmake-build-debug/test/lib/googletest/googletest/gtest_autogen/mocs_compilation.cpp" "/home/simone/CLionProjects/ActivityRegister/cmake-build-debug/test/lib/googletest/googletest/CMakeFiles/gtest.dir/gtest_autogen/mocs_compilation.cpp.o"
+  "/home/simone/CLionProjects/ActivityRegister/test/lib/googletest/googletest/src/gtest-all.cc" "/home/simone/CLionProjects/ActivityRegister/cmake-build-debug/test/lib/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

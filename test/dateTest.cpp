@@ -64,3 +64,4 @@ TEST (Date, ExistingDate) {
     Date d2(31, 1, 2020);
     ASSERT_TRUE(d2.isExistingDate());
 }
+

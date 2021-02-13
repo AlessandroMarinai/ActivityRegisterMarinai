@@ -48,10 +48,10 @@ RM = /home/simone/Downloads/clion-2020.1.2/bin/cmake/linux/bin/cmake -E remove -
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/simone/CLionProjects/qtHelloWorld
+CMAKE_SOURCE_DIR = /home/simone/CLionProjects/ActivityRegister
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/simone/CLionProjects/qtHelloWorld/cmake-build-debug
+CMAKE_BINARY_DIR = /home/simone/CLionProjects/ActivityRegister/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,9 +126,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/CMakeFiles /home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/simone/CLionProjects/ActivityRegister/cmake-build-debug/CMakeFiles /home/simone/CLionProjects/ActivityRegister/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/simone/CLionProjects/ActivityRegister/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -157,17 +157,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named qtHelloWorld
+# Target rules for targets named ActivityRegister
 
 # Build rule for target.
-qtHelloWorld: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 qtHelloWorld
-.PHONY : qtHelloWorld
+ActivityRegister: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ActivityRegister
+.PHONY : ActivityRegister
 
 # fast build rule for target.
-qtHelloWorld/fast:
-	$(MAKE) -f CMakeFiles/qtHelloWorld.dir/build.make CMakeFiles/qtHelloWorld.dir/build
-.PHONY : qtHelloWorld/fast
+ActivityRegister/fast:
+	$(MAKE) -f CMakeFiles/ActivityRegister.dir/build.make CMakeFiles/ActivityRegister.dir/build
+.PHONY : ActivityRegister/fast
 
 #=============================================================================
 # Target rules for targets named core
@@ -183,17 +183,17 @@ core/fast:
 .PHONY : core/fast
 
 #=============================================================================
-# Target rules for targets named qtHelloWorld_autogen
+# Target rules for targets named ActivityRegister_autogen
 
 # Build rule for target.
-qtHelloWorld_autogen: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 qtHelloWorld_autogen
-.PHONY : qtHelloWorld_autogen
+ActivityRegister_autogen: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ActivityRegister_autogen
+.PHONY : ActivityRegister_autogen
 
 # fast build rule for target.
-qtHelloWorld_autogen/fast:
-	$(MAKE) -f CMakeFiles/qtHelloWorld_autogen.dir/build.make CMakeFiles/qtHelloWorld_autogen.dir/build
-.PHONY : qtHelloWorld_autogen/fast
+ActivityRegister_autogen/fast:
+	$(MAKE) -f CMakeFiles/ActivityRegister_autogen.dir/build.make CMakeFiles/ActivityRegister_autogen.dir/build
+.PHONY : ActivityRegister_autogen/fast
 
 #=============================================================================
 # Target rules for targets named core_autogen
@@ -338,12 +338,67 @@ gtest_autogen/fast:
 	$(MAKE) -f test/lib/googletest/googletest/CMakeFiles/gtest_autogen.dir/build.make test/lib/googletest/googletest/CMakeFiles/gtest_autogen.dir/build
 .PHONY : gtest_autogen/fast
 
+ActivityRegister_autogen/mocs_compilation.o: ActivityRegister_autogen/mocs_compilation.cpp.o
+
+.PHONY : ActivityRegister_autogen/mocs_compilation.o
+
+# target to build an object file
+ActivityRegister_autogen/mocs_compilation.cpp.o:
+	$(MAKE) -f CMakeFiles/ActivityRegister.dir/build.make CMakeFiles/ActivityRegister.dir/ActivityRegister_autogen/mocs_compilation.cpp.o
+.PHONY : ActivityRegister_autogen/mocs_compilation.cpp.o
+
+ActivityRegister_autogen/mocs_compilation.i: ActivityRegister_autogen/mocs_compilation.cpp.i
+
+.PHONY : ActivityRegister_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+ActivityRegister_autogen/mocs_compilation.cpp.i:
+	$(MAKE) -f CMakeFiles/ActivityRegister.dir/build.make CMakeFiles/ActivityRegister.dir/ActivityRegister_autogen/mocs_compilation.cpp.i
+.PHONY : ActivityRegister_autogen/mocs_compilation.cpp.i
+
+ActivityRegister_autogen/mocs_compilation.s: ActivityRegister_autogen/mocs_compilation.cpp.s
+
+.PHONY : ActivityRegister_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+ActivityRegister_autogen/mocs_compilation.cpp.s:
+	$(MAKE) -f CMakeFiles/ActivityRegister.dir/build.make CMakeFiles/ActivityRegister.dir/ActivityRegister_autogen/mocs_compilation.cpp.s
+.PHONY : ActivityRegister_autogen/mocs_compilation.cpp.s
+
+AddNewActivityDialog.o: AddNewActivityDialog.cpp.o
+
+.PHONY : AddNewActivityDialog.o
+
+# target to build an object file
+AddNewActivityDialog.cpp.o:
+	$(MAKE) -f CMakeFiles/ActivityRegister.dir/build.make CMakeFiles/ActivityRegister.dir/AddNewActivityDialog.cpp.o
+.PHONY : AddNewActivityDialog.cpp.o
+
+AddNewActivityDialog.i: AddNewActivityDialog.cpp.i
+
+.PHONY : AddNewActivityDialog.i
+
+# target to preprocess a source file
+AddNewActivityDialog.cpp.i:
+	$(MAKE) -f CMakeFiles/ActivityRegister.dir/build.make CMakeFiles/ActivityRegister.dir/AddNewActivityDialog.cpp.i
+.PHONY : AddNewActivityDialog.cpp.i
+
+AddNewActivityDialog.s: AddNewActivityDialog.cpp.s
+
+.PHONY : AddNewActivityDialog.s
+
+# target to generate assembly for a file
+AddNewActivityDialog.cpp.s:
+	$(MAKE) -f CMakeFiles/ActivityRegister.dir/build.make CMakeFiles/ActivityRegister.dir/AddNewActivityDialog.cpp.s
+.PHONY : AddNewActivityDialog.cpp.s
+
 Date.o: Date.cpp.o
 
 .PHONY : Date.o
 
 # target to build an object file
 Date.cpp.o:
+	$(MAKE) -f CMakeFiles/ActivityRegister.dir/build.make CMakeFiles/ActivityRegister.dir/Date.cpp.o
 	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/Date.cpp.o
 .PHONY : Date.cpp.o
 
@@ -353,6 +408,7 @@ Date.i: Date.cpp.i
 
 # target to preprocess a source file
 Date.cpp.i:
+	$(MAKE) -f CMakeFiles/ActivityRegister.dir/build.make CMakeFiles/ActivityRegister.dir/Date.cpp.i
 	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/Date.cpp.i
 .PHONY : Date.cpp.i
 
@@ -362,8 +418,90 @@ Date.s: Date.cpp.s
 
 # target to generate assembly for a file
 Date.cpp.s:
+	$(MAKE) -f CMakeFiles/ActivityRegister.dir/build.make CMakeFiles/ActivityRegister.dir/Date.cpp.s
 	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/Date.cpp.s
 .PHONY : Date.cpp.s
+
+EventsDisplayerDialog.o: EventsDisplayerDialog.cpp.o
+
+.PHONY : EventsDisplayerDialog.o
+
+# target to build an object file
+EventsDisplayerDialog.cpp.o:
+	$(MAKE) -f CMakeFiles/ActivityRegister.dir/build.make CMakeFiles/ActivityRegister.dir/EventsDisplayerDialog.cpp.o
+.PHONY : EventsDisplayerDialog.cpp.o
+
+EventsDisplayerDialog.i: EventsDisplayerDialog.cpp.i
+
+.PHONY : EventsDisplayerDialog.i
+
+# target to preprocess a source file
+EventsDisplayerDialog.cpp.i:
+	$(MAKE) -f CMakeFiles/ActivityRegister.dir/build.make CMakeFiles/ActivityRegister.dir/EventsDisplayerDialog.cpp.i
+.PHONY : EventsDisplayerDialog.cpp.i
+
+EventsDisplayerDialog.s: EventsDisplayerDialog.cpp.s
+
+.PHONY : EventsDisplayerDialog.s
+
+# target to generate assembly for a file
+EventsDisplayerDialog.cpp.s:
+	$(MAKE) -f CMakeFiles/ActivityRegister.dir/build.make CMakeFiles/ActivityRegister.dir/EventsDisplayerDialog.cpp.s
+.PHONY : EventsDisplayerDialog.cpp.s
+
+MainDialog.o: MainDialog.cpp.o
+
+.PHONY : MainDialog.o
+
+# target to build an object file
+MainDialog.cpp.o:
+	$(MAKE) -f CMakeFiles/ActivityRegister.dir/build.make CMakeFiles/ActivityRegister.dir/MainDialog.cpp.o
+.PHONY : MainDialog.cpp.o
+
+MainDialog.i: MainDialog.cpp.i
+
+.PHONY : MainDialog.i
+
+# target to preprocess a source file
+MainDialog.cpp.i:
+	$(MAKE) -f CMakeFiles/ActivityRegister.dir/build.make CMakeFiles/ActivityRegister.dir/MainDialog.cpp.i
+.PHONY : MainDialog.cpp.i
+
+MainDialog.s: MainDialog.cpp.s
+
+.PHONY : MainDialog.s
+
+# target to generate assembly for a file
+MainDialog.cpp.s:
+	$(MAKE) -f CMakeFiles/ActivityRegister.dir/build.make CMakeFiles/ActivityRegister.dir/MainDialog.cpp.s
+.PHONY : MainDialog.cpp.s
+
+SavedOrNotDialog.o: SavedOrNotDialog.cpp.o
+
+.PHONY : SavedOrNotDialog.o
+
+# target to build an object file
+SavedOrNotDialog.cpp.o:
+	$(MAKE) -f CMakeFiles/ActivityRegister.dir/build.make CMakeFiles/ActivityRegister.dir/SavedOrNotDialog.cpp.o
+.PHONY : SavedOrNotDialog.cpp.o
+
+SavedOrNotDialog.i: SavedOrNotDialog.cpp.i
+
+.PHONY : SavedOrNotDialog.i
+
+# target to preprocess a source file
+SavedOrNotDialog.cpp.i:
+	$(MAKE) -f CMakeFiles/ActivityRegister.dir/build.make CMakeFiles/ActivityRegister.dir/SavedOrNotDialog.cpp.i
+.PHONY : SavedOrNotDialog.cpp.i
+
+SavedOrNotDialog.s: SavedOrNotDialog.cpp.s
+
+.PHONY : SavedOrNotDialog.s
+
+# target to generate assembly for a file
+SavedOrNotDialog.cpp.s:
+	$(MAKE) -f CMakeFiles/ActivityRegister.dir/build.make CMakeFiles/ActivityRegister.dir/SavedOrNotDialog.cpp.s
+.PHONY : SavedOrNotDialog.cpp.s
 
 core_autogen/mocs_compilation.o: core_autogen/mocs_compilation.cpp.o
 
@@ -398,7 +536,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/qtHelloWorld.dir/build.make CMakeFiles/qtHelloWorld.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/ActivityRegister.dir/build.make CMakeFiles/ActivityRegister.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -407,7 +545,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/qtHelloWorld.dir/build.make CMakeFiles/qtHelloWorld.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/ActivityRegister.dir/build.make CMakeFiles/ActivityRegister.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -416,35 +554,8 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/qtHelloWorld.dir/build.make CMakeFiles/qtHelloWorld.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/ActivityRegister.dir/build.make CMakeFiles/ActivityRegister.dir/main.cpp.s
 .PHONY : main.cpp.s
-
-qtHelloWorld_autogen/mocs_compilation.o: qtHelloWorld_autogen/mocs_compilation.cpp.o
-
-.PHONY : qtHelloWorld_autogen/mocs_compilation.o
-
-# target to build an object file
-qtHelloWorld_autogen/mocs_compilation.cpp.o:
-	$(MAKE) -f CMakeFiles/qtHelloWorld.dir/build.make CMakeFiles/qtHelloWorld.dir/qtHelloWorld_autogen/mocs_compilation.cpp.o
-.PHONY : qtHelloWorld_autogen/mocs_compilation.cpp.o
-
-qtHelloWorld_autogen/mocs_compilation.i: qtHelloWorld_autogen/mocs_compilation.cpp.i
-
-.PHONY : qtHelloWorld_autogen/mocs_compilation.i
-
-# target to preprocess a source file
-qtHelloWorld_autogen/mocs_compilation.cpp.i:
-	$(MAKE) -f CMakeFiles/qtHelloWorld.dir/build.make CMakeFiles/qtHelloWorld.dir/qtHelloWorld_autogen/mocs_compilation.cpp.i
-.PHONY : qtHelloWorld_autogen/mocs_compilation.cpp.i
-
-qtHelloWorld_autogen/mocs_compilation.s: qtHelloWorld_autogen/mocs_compilation.cpp.s
-
-.PHONY : qtHelloWorld_autogen/mocs_compilation.s
-
-# target to generate assembly for a file
-qtHelloWorld_autogen/mocs_compilation.cpp.s:
-	$(MAKE) -f CMakeFiles/qtHelloWorld.dir/build.make CMakeFiles/qtHelloWorld.dir/qtHelloWorld_autogen/mocs_compilation.cpp.s
-.PHONY : qtHelloWorld_autogen/mocs_compilation.cpp.s
 
 # Help Target
 help:
@@ -454,13 +565,13 @@ help:
 	@echo "... depend"
 	@echo "... install/strip"
 	@echo "... install/local"
-	@echo "... qtHelloWorld"
 	@echo "... install"
 	@echo "... list_install_components"
+	@echo "... ActivityRegister"
 	@echo "... core"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... qtHelloWorld_autogen"
+	@echo "... ActivityRegister_autogen"
 	@echo "... core_autogen"
 	@echo "... runTests"
 	@echo "... runTests_autogen"
@@ -472,18 +583,30 @@ help:
 	@echo "... gtest"
 	@echo "... gtest_main_autogen"
 	@echo "... gtest_autogen"
+	@echo "... ActivityRegister_autogen/mocs_compilation.o"
+	@echo "... ActivityRegister_autogen/mocs_compilation.i"
+	@echo "... ActivityRegister_autogen/mocs_compilation.s"
+	@echo "... AddNewActivityDialog.o"
+	@echo "... AddNewActivityDialog.i"
+	@echo "... AddNewActivityDialog.s"
 	@echo "... Date.o"
 	@echo "... Date.i"
 	@echo "... Date.s"
+	@echo "... EventsDisplayerDialog.o"
+	@echo "... EventsDisplayerDialog.i"
+	@echo "... EventsDisplayerDialog.s"
+	@echo "... MainDialog.o"
+	@echo "... MainDialog.i"
+	@echo "... MainDialog.s"
+	@echo "... SavedOrNotDialog.o"
+	@echo "... SavedOrNotDialog.i"
+	@echo "... SavedOrNotDialog.s"
 	@echo "... core_autogen/mocs_compilation.o"
 	@echo "... core_autogen/mocs_compilation.i"
 	@echo "... core_autogen/mocs_compilation.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... qtHelloWorld_autogen/mocs_compilation.o"
-	@echo "... qtHelloWorld_autogen/mocs_compilation.i"
-	@echo "... qtHelloWorld_autogen/mocs_compilation.s"
 .PHONY : help
 
 

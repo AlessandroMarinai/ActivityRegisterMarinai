@@ -1,26 +1,31 @@
 {
-	"BUILD_DIR" : "/home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/core_autogen",
-	"CMAKE_BINARY_DIR" : "/home/simone/CLionProjects/qtHelloWorld/cmake-build-debug",
-	"CMAKE_CURRENT_BINARY_DIR" : "/home/simone/CLionProjects/qtHelloWorld/cmake-build-debug",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/home/simone/CLionProjects/qtHelloWorld",
+	"BUILD_DIR" : "/home/simone/CLionProjects/ActivityRegister/cmake-build-debug/core_autogen",
+	"CMAKE_BINARY_DIR" : "/home/simone/CLionProjects/ActivityRegister/cmake-build-debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/simone/CLionProjects/ActivityRegister/cmake-build-debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/simone/CLionProjects/ActivityRegister",
 	"CMAKE_EXECUTABLE" : "/home/simone/Downloads/clion-2020.1.2/bin/cmake/linux/bin/cmake",
-	"CMAKE_SOURCE_DIR" : "/home/simone/CLionProjects/qtHelloWorld",
+	"CMAKE_SOURCE_DIR" : "/home/simone/CLionProjects/ActivityRegister",
 	"HEADERS" : 
 	[
 		[
-			"/home/simone/CLionProjects/qtHelloWorld/Date.h",
+			"/home/simone/CLionProjects/ActivityRegister/Activity.h",
+			"Mu",
+			"EWIEGA46WW/moc_Activity.cpp"
+		],
+		[
+			"/home/simone/CLionProjects/ActivityRegister/Date.h",
 			"Mu",
 			"EWIEGA46WW/moc_Date.cpp"
 		],
 		[
-			"/home/simone/CLionProjects/qtHelloWorld/Schedule.h",
+			"/home/simone/CLionProjects/ActivityRegister/Time.h",
 			"Mu",
-			"EWIEGA46WW/moc_Schedule.cpp"
+			"EWIEGA46WW/moc_Time.cpp"
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/core_autogen/include",
-	"MOC_COMPILATION_FILE" : "/home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/core_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "/home/simone/CLionProjects/ActivityRegister/cmake-build-debug/core_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/simone/CLionProjects/ActivityRegister/cmake-build-debug/core_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : [],
 	"MOC_DEPEND_FILTERS" : 
 	[
@@ -31,8 +36,8 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"/home/simone/CLionProjects/qtHelloWorld/cmake-build-debug",
-		"/home/simone/CLionProjects/qtHelloWorld",
+		"/home/simone/CLionProjects/ActivityRegister/cmake-build-debug",
+		"/home/simone/CLionProjects/ActivityRegister",
 		"/usr/include/c++/7",
 		"/usr/include/x86_64-linux-gnu/c++/7",
 		"/usr/include/c++/7/backward",
@@ -53,22 +58,22 @@
 		"-c",
 		"/home/simone/Downloads/clion-2020.1.2/bin/cmake/linux/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/core_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/home/simone/CLionProjects/ActivityRegister/cmake-build-debug/core_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : 
 	[
-		"/home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/qtHelloWorld_autogen/mocs_compilation.cpp"
+		"/home/simone/CLionProjects/ActivityRegister/cmake-build-debug/ActivityRegister_autogen/mocs_compilation.cpp"
 	],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 2,
-	"PARSE_CACHE_FILE" : "/home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/CMakeFiles/core_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "/home/simone/CLionProjects/ActivityRegister/cmake-build-debug/CMakeFiles/core_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/usr/lib/qt5/bin/moc",
 	"QT_UIC_EXECUTABLE" : "",
 	"QT_VERSION_MAJOR" : 5,
-	"SETTINGS_FILE" : "/home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/CMakeFiles/core_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/home/simone/CLionProjects/ActivityRegister/cmake-build-debug/CMakeFiles/core_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "/home/simone/CLionProjects/qtHelloWorld/Date.cpp", "Mu" ]
+		[ "/home/simone/CLionProjects/ActivityRegister/Date.cpp", "Mu" ]
 	],
 	"VERBOSITY" : 0
 }

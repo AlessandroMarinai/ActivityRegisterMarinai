@@ -1,14 +1,14 @@
 {
-	"BUILD_DIR" : "/home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/test/lib/googletest/googlemock/gmock_main_autogen",
-	"CMAKE_BINARY_DIR" : "/home/simone/CLionProjects/qtHelloWorld/cmake-build-debug",
-	"CMAKE_CURRENT_BINARY_DIR" : "/home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/test/lib/googletest/googlemock",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/home/simone/CLionProjects/qtHelloWorld/test/lib/googletest/googlemock",
+	"BUILD_DIR" : "/home/simone/CLionProjects/ActivityRegister/cmake-build-debug/test/lib/googletest/googlemock/gmock_main_autogen",
+	"CMAKE_BINARY_DIR" : "/home/simone/CLionProjects/ActivityRegister/cmake-build-debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/simone/CLionProjects/ActivityRegister/cmake-build-debug/test/lib/googletest/googlemock",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/simone/CLionProjects/ActivityRegister/test/lib/googletest/googlemock",
 	"CMAKE_EXECUTABLE" : "/home/simone/Downloads/clion-2020.1.2/bin/cmake/linux/bin/cmake",
-	"CMAKE_SOURCE_DIR" : "/home/simone/CLionProjects/qtHelloWorld",
+	"CMAKE_SOURCE_DIR" : "/home/simone/CLionProjects/ActivityRegister",
 	"HEADERS" : [],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/test/lib/googletest/googlemock/gmock_main_autogen/include",
-	"MOC_COMPILATION_FILE" : "/home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/test/lib/googletest/googlemock/gmock_main_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "/home/simone/CLionProjects/ActivityRegister/cmake-build-debug/test/lib/googletest/googlemock/gmock_main_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/simone/CLionProjects/ActivityRegister/cmake-build-debug/test/lib/googletest/googlemock/gmock_main_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : [],
 	"MOC_DEPEND_FILTERS" : 
 	[
@@ -19,11 +19,11 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"/home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/test/lib/googletest/googlemock",
-		"/home/simone/CLionProjects/qtHelloWorld/test/lib/googletest/googlemock",
-		"/home/simone/CLionProjects/qtHelloWorld/test/lib/googletest/googlemock/include",
-		"/home/simone/CLionProjects/qtHelloWorld/test/lib/googletest/googletest/include",
-		"/home/simone/CLionProjects/qtHelloWorld/test/lib/googletest/googletest",
+		"/home/simone/CLionProjects/ActivityRegister/cmake-build-debug/test/lib/googletest/googlemock",
+		"/home/simone/CLionProjects/ActivityRegister/test/lib/googletest/googlemock",
+		"/home/simone/CLionProjects/ActivityRegister/test/lib/googletest/googlemock/include",
+		"/home/simone/CLionProjects/ActivityRegister/test/lib/googletest/googletest/include",
+		"/home/simone/CLionProjects/ActivityRegister/test/lib/googletest/googletest",
 		"/usr/include/c++/7",
 		"/usr/include/x86_64-linux-gnu/c++/7",
 		"/usr/include/c++/7/backward",
@@ -44,20 +44,20 @@
 		"-c",
 		"/home/simone/Downloads/clion-2020.1.2/bin/cmake/linux/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/test/lib/googletest/googlemock/gmock_main_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/home/simone/CLionProjects/ActivityRegister/cmake-build-debug/test/lib/googletest/googlemock/gmock_main_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 2,
-	"PARSE_CACHE_FILE" : "/home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/test/lib/googletest/googlemock/CMakeFiles/gmock_main_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "/home/simone/CLionProjects/ActivityRegister/cmake-build-debug/test/lib/googletest/googlemock/CMakeFiles/gmock_main_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/usr/lib/qt5/bin/moc",
 	"QT_UIC_EXECUTABLE" : "",
 	"QT_VERSION_MAJOR" : 5,
-	"SETTINGS_FILE" : "/home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/test/lib/googletest/googlemock/CMakeFiles/gmock_main_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/home/simone/CLionProjects/ActivityRegister/cmake-build-debug/test/lib/googletest/googlemock/CMakeFiles/gmock_main_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
 		[
-			"/home/simone/CLionProjects/qtHelloWorld/test/lib/googletest/googlemock/src/gmock_main.cc",
+			"/home/simone/CLionProjects/ActivityRegister/test/lib/googletest/googlemock/src/gmock_main.cc",
 			"Mu"
 		]
 	],

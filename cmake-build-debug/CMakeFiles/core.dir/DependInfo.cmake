@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/simone/CLionProjects/qtHelloWorld/Date.cpp" "/home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/CMakeFiles/core.dir/Date.cpp.o"
-  "/home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/core_autogen/mocs_compilation.cpp" "/home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/CMakeFiles/core.dir/core_autogen/mocs_compilation.cpp.o"
+  "/home/simone/CLionProjects/ActivityRegister/Date.cpp" "/home/simone/CLionProjects/ActivityRegister/cmake-build-debug/CMakeFiles/core.dir/Date.cpp.o"
+  "/home/simone/CLionProjects/ActivityRegister/cmake-build-debug/core_autogen/mocs_compilation.cpp" "/home/simone/CLionProjects/ActivityRegister/cmake-build-debug/CMakeFiles/core.dir/core_autogen/mocs_compilation.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

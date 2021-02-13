@@ -3,6 +3,15 @@
 
 CMakeFiles/core.dir/Date.cpp.o: ../Date.cpp
 CMakeFiles/core.dir/Date.cpp.o: ../Date.h
+CMakeFiles/core.dir/Date.cpp.o: ../Time.h
 
+CMakeFiles/core.dir/core_autogen/mocs_compilation.cpp.o: ../Activity.h
+CMakeFiles/core.dir/core_autogen/mocs_compilation.cpp.o: ../AddNewActivityDialog.h
+CMakeFiles/core.dir/core_autogen/mocs_compilation.cpp.o: ../Date.h
+CMakeFiles/core.dir/core_autogen/mocs_compilation.cpp.o: ../MainDialog.h
+CMakeFiles/core.dir/core_autogen/mocs_compilation.cpp.o: ../Register.h
+CMakeFiles/core.dir/core_autogen/mocs_compilation.cpp.o: ../SavedOrNotDialog.h
+CMakeFiles/core.dir/core_autogen/mocs_compilation.cpp.o: ../Time.h
+CMakeFiles/core.dir/core_autogen/mocs_compilation.cpp.o: core_autogen/EWIEGA46WW/moc_Register.cpp
 CMakeFiles/core.dir/core_autogen/mocs_compilation.cpp.o: core_autogen/mocs_compilation.cpp
 

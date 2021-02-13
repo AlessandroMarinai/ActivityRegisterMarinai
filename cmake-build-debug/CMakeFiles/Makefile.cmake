@@ -79,7 +79,7 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
-  "CMakeFiles/qtHelloWorld_autogen.dir/AutogenInfo.json"
+  "CMakeFiles/ActivityRegister_autogen.dir/AutogenInfo.json"
   "CMakeFiles/core_autogen.dir/AutogenInfo.json"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "test/CMakeFiles/CMakeDirectoryInformation.cmake"
@@ -90,9 +90,9 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/qtHelloWorld.dir/DependInfo.cmake"
+  "CMakeFiles/ActivityRegister.dir/DependInfo.cmake"
   "CMakeFiles/core.dir/DependInfo.cmake"
-  "CMakeFiles/qtHelloWorld_autogen.dir/DependInfo.cmake"
+  "CMakeFiles/ActivityRegister_autogen.dir/DependInfo.cmake"
   "CMakeFiles/core_autogen.dir/DependInfo.cmake"
   "test/CMakeFiles/runTests.dir/DependInfo.cmake"
   "test/CMakeFiles/runTests_autogen.dir/DependInfo.cmake"

@@ -548,13 +548,48 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/simone/CLionProjects/qtHelloWorld/Activity.h">
+			<Option target="qtHelloWorld"/>
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="/home/simone/CLionProjects/qtHelloWorld/AddNewActivityDialog.cpp">
+			<Option target="qtHelloWorld"/>
+		</Unit>
+		<Unit filename="/home/simone/CLionProjects/qtHelloWorld/AddNewActivityDialog.h">
+			<Option target="qtHelloWorld"/>
+		</Unit>
 		<Unit filename="/home/simone/CLionProjects/qtHelloWorld/Date.cpp">
+			<Option target="qtHelloWorld"/>
 			<Option target="core"/>
 		</Unit>
 		<Unit filename="/home/simone/CLionProjects/qtHelloWorld/Date.h">
+			<Option target="qtHelloWorld"/>
 			<Option target="core"/>
 		</Unit>
-		<Unit filename="/home/simone/CLionProjects/qtHelloWorld/Schedule.h">
+		<Unit filename="/home/simone/CLionProjects/qtHelloWorld/EventsDisplayerDialog.cpp">
+			<Option target="qtHelloWorld"/>
+		</Unit>
+		<Unit filename="/home/simone/CLionProjects/qtHelloWorld/EventsDisplayerDialog.h">
+			<Option target="qtHelloWorld"/>
+		</Unit>
+		<Unit filename="/home/simone/CLionProjects/qtHelloWorld/MainDialog.cpp">
+			<Option target="qtHelloWorld"/>
+		</Unit>
+		<Unit filename="/home/simone/CLionProjects/qtHelloWorld/MainDialog.h">
+			<Option target="qtHelloWorld"/>
+		</Unit>
+		<Unit filename="/home/simone/CLionProjects/qtHelloWorld/Register.h">
+			<Option target="qtHelloWorld"/>
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="/home/simone/CLionProjects/qtHelloWorld/SavedOrNotDialog.cpp">
+			<Option target="qtHelloWorld"/>
+		</Unit>
+		<Unit filename="/home/simone/CLionProjects/qtHelloWorld/SavedOrNotDialog.h">
+			<Option target="qtHelloWorld"/>
+		</Unit>
+		<Unit filename="/home/simone/CLionProjects/qtHelloWorld/Time.h">
+			<Option target="qtHelloWorld"/>
 			<Option target="core"/>
 		</Unit>
 		<Unit filename="/home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/core_autogen/mocs_compilation.cpp">
@@ -599,7 +634,7 @@
 		<Unit filename="/home/simone/CLionProjects/qtHelloWorld/test/runAllTests.cpp">
 			<Option target="runTests"/>
 		</Unit>
-		<Unit filename="/home/simone/CLionProjects/qtHelloWorld/test/scheduleTest.cpp">
+		<Unit filename="/home/simone/CLionProjects/qtHelloWorld/test/timeTest.cpp">
 			<Option target="runTests"/>
 		</Unit>
 		<Unit filename="/home/simone/CLionProjects/qtHelloWorld/CMakeLists.txt">

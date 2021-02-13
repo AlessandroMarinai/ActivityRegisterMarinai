@@ -43,10 +43,10 @@ RM = /home/simone/Downloads/clion-2020.1.2/bin/cmake/linux/bin/cmake -E remove -
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/simone/CLionProjects/qtHelloWorld
+CMAKE_SOURCE_DIR = /home/simone/CLionProjects/ActivityRegister
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/simone/CLionProjects/qtHelloWorld/cmake-build-debug
+CMAKE_BINARY_DIR = /home/simone/CLionProjects/ActivityRegister/cmake-build-debug
 
 # Utility rule file for gtest_main_autogen.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /home/simone/CLionProjects/qtHelloWorld/cmake-build-debug
 include test/lib/googletest/googletest/CMakeFiles/gtest_main_autogen.dir/progress.make
 
 test/lib/googletest/googletest/CMakeFiles/gtest_main_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target gtest_main"
-	cd /home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/test/lib/googletest/googletest && /home/simone/Downloads/clion-2020.1.2/bin/cmake/linux/bin/cmake -E cmake_autogen /home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/test/lib/googletest/googletest/CMakeFiles/gtest_main_autogen.dir/AutogenInfo.json Debug
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/simone/CLionProjects/ActivityRegister/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target gtest_main"
+	cd /home/simone/CLionProjects/ActivityRegister/cmake-build-debug/test/lib/googletest/googletest && /home/simone/Downloads/clion-2020.1.2/bin/cmake/linux/bin/cmake -E cmake_autogen /home/simone/CLionProjects/ActivityRegister/cmake-build-debug/test/lib/googletest/googletest/CMakeFiles/gtest_main_autogen.dir/AutogenInfo.json Debug
 
 gtest_main_autogen: test/lib/googletest/googletest/CMakeFiles/gtest_main_autogen
 gtest_main_autogen: test/lib/googletest/googletest/CMakeFiles/gtest_main_autogen.dir/build.make
@@ -68,10 +68,10 @@ test/lib/googletest/googletest/CMakeFiles/gtest_main_autogen.dir/build: gtest_ma
 .PHONY : test/lib/googletest/googletest/CMakeFiles/gtest_main_autogen.dir/build
 
 test/lib/googletest/googletest/CMakeFiles/gtest_main_autogen.dir/clean:
-	cd /home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/test/lib/googletest/googletest && $(CMAKE_COMMAND) -P CMakeFiles/gtest_main_autogen.dir/cmake_clean.cmake
+	cd /home/simone/CLionProjects/ActivityRegister/cmake-build-debug/test/lib/googletest/googletest && $(CMAKE_COMMAND) -P CMakeFiles/gtest_main_autogen.dir/cmake_clean.cmake
 .PHONY : test/lib/googletest/googletest/CMakeFiles/gtest_main_autogen.dir/clean
 
 test/lib/googletest/googletest/CMakeFiles/gtest_main_autogen.dir/depend:
-	cd /home/simone/CLionProjects/qtHelloWorld/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/simone/CLionProjects/qtHelloWorld /home/simone/CLionProjects/qtHelloWorld/test/lib/googletest/googletest /home/simone/CLionProjects/qtHelloWorld/cmake-build-debug /home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/test/lib/googletest/googletest /home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/test/lib/googletest/googletest/CMakeFiles/gtest_main_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/simone/CLionProjects/ActivityRegister/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/simone/CLionProjects/ActivityRegister /home/simone/CLionProjects/ActivityRegister/test/lib/googletest/googletest /home/simone/CLionProjects/ActivityRegister/cmake-build-debug /home/simone/CLionProjects/ActivityRegister/cmake-build-debug/test/lib/googletest/googletest /home/simone/CLionProjects/ActivityRegister/cmake-build-debug/test/lib/googletest/googletest/CMakeFiles/gtest_main_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : test/lib/googletest/googletest/CMakeFiles/gtest_main_autogen.dir/depend
 

@@ -30,3 +30,28 @@ bool Date::isExistingDate() const {
         result = false;
     return result;
 }
+
+bool Date::operator<(const Date &right) const {
+    bool result = true;
+    if (year>right.year || (year==right.year && month>=right.month) ||
+    (year==right.year && month==right.month && day>=right.day))
+        result = false;
+    return result;
+}
+
+bool Date::operator==(const Date &right) const {
+    return year==right.year && month==right.month && day==right.day;
+}
+
+int Date::getDay() const {
+    return day;
+}
+
+int Date::getMonth() const {
+    return month;
+}
+
+int Date::getYear() const {
+    return year;
+}
+

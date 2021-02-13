@@ -330,19 +330,11 @@ cxxabi.h
 acxx_demangle.h
 -
 
-/home/simone/CLionProjects/qtHelloWorld/Date.h
+/home/simone/CLionProjects/qtHelloWorld/Time.h
 
-/home/simone/CLionProjects/qtHelloWorld/Schedule.h
-
-/home/simone/CLionProjects/qtHelloWorld/test/dateTest.cpp
+/home/simone/CLionProjects/qtHelloWorld/test/timeTest.cpp
 gtest/gtest.h
 /home/simone/CLionProjects/qtHelloWorld/test/gtest/gtest.h
-../Date.h
-/home/simone/CLionProjects/qtHelloWorld/Date.h
-
-/home/simone/CLionProjects/qtHelloWorld/test/scheduleTest.cpp
-gtest/gtest.h
-/home/simone/CLionProjects/qtHelloWorld/test/gtest/gtest.h
-../Schedule.h
-/home/simone/CLionProjects/qtHelloWorld/Schedule.h
+../Time.h
+/home/simone/CLionProjects/qtHelloWorld/Time.h
 

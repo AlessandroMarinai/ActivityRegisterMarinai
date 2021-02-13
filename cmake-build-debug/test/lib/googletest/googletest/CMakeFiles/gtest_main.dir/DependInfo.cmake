@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/test/lib/googletest/googletest/gtest_main_autogen/mocs_compilation.cpp" "/home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/test/lib/googletest/googletest/CMakeFiles/gtest_main.dir/gtest_main_autogen/mocs_compilation.cpp.o"
-  "/home/simone/CLionProjects/qtHelloWorld/test/lib/googletest/googletest/src/gtest_main.cc" "/home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/test/lib/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
+  "/home/simone/CLionProjects/ActivityRegister/cmake-build-debug/test/lib/googletest/googletest/gtest_main_autogen/mocs_compilation.cpp" "/home/simone/CLionProjects/ActivityRegister/cmake-build-debug/test/lib/googletest/googletest/CMakeFiles/gtest_main.dir/gtest_main_autogen/mocs_compilation.cpp.o"
+  "/home/simone/CLionProjects/ActivityRegister/test/lib/googletest/googletest/src/gtest_main.cc" "/home/simone/CLionProjects/ActivityRegister/cmake-build-debug/test/lib/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -19,7 +19,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/test/lib/googletest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
+  "/home/simone/CLionProjects/ActivityRegister/cmake-build-debug/test/lib/googletest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -43,10 +43,10 @@ RM = /home/simone/Downloads/clion-2020.1.2/bin/cmake/linux/bin/cmake -E remove -
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/simone/CLionProjects/qtHelloWorld
+CMAKE_SOURCE_DIR = /home/simone/CLionProjects/ActivityRegister
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/simone/CLionProjects/qtHelloWorld/cmake-build-debug
+CMAKE_BINARY_DIR = /home/simone/CLionProjects/ActivityRegister/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include test/CMakeFiles/runTests.dir/depend.make
@@ -59,61 +59,61 @@ include test/CMakeFiles/runTests.dir/flags.make
 
 test/CMakeFiles/runTests.dir/runTests_autogen/mocs_compilation.cpp.o: test/CMakeFiles/runTests.dir/flags.make
 test/CMakeFiles/runTests.dir/runTests_autogen/mocs_compilation.cpp.o: test/runTests_autogen/mocs_compilation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/runTests.dir/runTests_autogen/mocs_compilation.cpp.o"
-	cd /home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runTests.dir/runTests_autogen/mocs_compilation.cpp.o -c /home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/test/runTests_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/simone/CLionProjects/ActivityRegister/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/runTests.dir/runTests_autogen/mocs_compilation.cpp.o"
+	cd /home/simone/CLionProjects/ActivityRegister/cmake-build-debug/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runTests.dir/runTests_autogen/mocs_compilation.cpp.o -c /home/simone/CLionProjects/ActivityRegister/cmake-build-debug/test/runTests_autogen/mocs_compilation.cpp
 
 test/CMakeFiles/runTests.dir/runTests_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runTests.dir/runTests_autogen/mocs_compilation.cpp.i"
-	cd /home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/test/runTests_autogen/mocs_compilation.cpp > CMakeFiles/runTests.dir/runTests_autogen/mocs_compilation.cpp.i
+	cd /home/simone/CLionProjects/ActivityRegister/cmake-build-debug/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/simone/CLionProjects/ActivityRegister/cmake-build-debug/test/runTests_autogen/mocs_compilation.cpp > CMakeFiles/runTests.dir/runTests_autogen/mocs_compilation.cpp.i
 
 test/CMakeFiles/runTests.dir/runTests_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runTests.dir/runTests_autogen/mocs_compilation.cpp.s"
-	cd /home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/test/runTests_autogen/mocs_compilation.cpp -o CMakeFiles/runTests.dir/runTests_autogen/mocs_compilation.cpp.s
+	cd /home/simone/CLionProjects/ActivityRegister/cmake-build-debug/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/simone/CLionProjects/ActivityRegister/cmake-build-debug/test/runTests_autogen/mocs_compilation.cpp -o CMakeFiles/runTests.dir/runTests_autogen/mocs_compilation.cpp.s
 
 test/CMakeFiles/runTests.dir/runAllTests.cpp.o: test/CMakeFiles/runTests.dir/flags.make
 test/CMakeFiles/runTests.dir/runAllTests.cpp.o: ../test/runAllTests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object test/CMakeFiles/runTests.dir/runAllTests.cpp.o"
-	cd /home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runTests.dir/runAllTests.cpp.o -c /home/simone/CLionProjects/qtHelloWorld/test/runAllTests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/simone/CLionProjects/ActivityRegister/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object test/CMakeFiles/runTests.dir/runAllTests.cpp.o"
+	cd /home/simone/CLionProjects/ActivityRegister/cmake-build-debug/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runTests.dir/runAllTests.cpp.o -c /home/simone/CLionProjects/ActivityRegister/test/runAllTests.cpp
 
 test/CMakeFiles/runTests.dir/runAllTests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runTests.dir/runAllTests.cpp.i"
-	cd /home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/simone/CLionProjects/qtHelloWorld/test/runAllTests.cpp > CMakeFiles/runTests.dir/runAllTests.cpp.i
+	cd /home/simone/CLionProjects/ActivityRegister/cmake-build-debug/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/simone/CLionProjects/ActivityRegister/test/runAllTests.cpp > CMakeFiles/runTests.dir/runAllTests.cpp.i
 
 test/CMakeFiles/runTests.dir/runAllTests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runTests.dir/runAllTests.cpp.s"
-	cd /home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/simone/CLionProjects/qtHelloWorld/test/runAllTests.cpp -o CMakeFiles/runTests.dir/runAllTests.cpp.s
+	cd /home/simone/CLionProjects/ActivityRegister/cmake-build-debug/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/simone/CLionProjects/ActivityRegister/test/runAllTests.cpp -o CMakeFiles/runTests.dir/runAllTests.cpp.s
 
-test/CMakeFiles/runTests.dir/scheduleTest.cpp.o: test/CMakeFiles/runTests.dir/flags.make
-test/CMakeFiles/runTests.dir/scheduleTest.cpp.o: ../test/scheduleTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object test/CMakeFiles/runTests.dir/scheduleTest.cpp.o"
-	cd /home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runTests.dir/scheduleTest.cpp.o -c /home/simone/CLionProjects/qtHelloWorld/test/scheduleTest.cpp
+test/CMakeFiles/runTests.dir/timeTest.cpp.o: test/CMakeFiles/runTests.dir/flags.make
+test/CMakeFiles/runTests.dir/timeTest.cpp.o: ../test/timeTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/simone/CLionProjects/ActivityRegister/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object test/CMakeFiles/runTests.dir/timeTest.cpp.o"
+	cd /home/simone/CLionProjects/ActivityRegister/cmake-build-debug/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runTests.dir/timeTest.cpp.o -c /home/simone/CLionProjects/ActivityRegister/test/timeTest.cpp
 
-test/CMakeFiles/runTests.dir/scheduleTest.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runTests.dir/scheduleTest.cpp.i"
-	cd /home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/simone/CLionProjects/qtHelloWorld/test/scheduleTest.cpp > CMakeFiles/runTests.dir/scheduleTest.cpp.i
+test/CMakeFiles/runTests.dir/timeTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runTests.dir/timeTest.cpp.i"
+	cd /home/simone/CLionProjects/ActivityRegister/cmake-build-debug/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/simone/CLionProjects/ActivityRegister/test/timeTest.cpp > CMakeFiles/runTests.dir/timeTest.cpp.i
 
-test/CMakeFiles/runTests.dir/scheduleTest.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runTests.dir/scheduleTest.cpp.s"
-	cd /home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/simone/CLionProjects/qtHelloWorld/test/scheduleTest.cpp -o CMakeFiles/runTests.dir/scheduleTest.cpp.s
+test/CMakeFiles/runTests.dir/timeTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runTests.dir/timeTest.cpp.s"
+	cd /home/simone/CLionProjects/ActivityRegister/cmake-build-debug/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/simone/CLionProjects/ActivityRegister/test/timeTest.cpp -o CMakeFiles/runTests.dir/timeTest.cpp.s
 
 test/CMakeFiles/runTests.dir/dateTest.cpp.o: test/CMakeFiles/runTests.dir/flags.make
 test/CMakeFiles/runTests.dir/dateTest.cpp.o: ../test/dateTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object test/CMakeFiles/runTests.dir/dateTest.cpp.o"
-	cd /home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runTests.dir/dateTest.cpp.o -c /home/simone/CLionProjects/qtHelloWorld/test/dateTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/simone/CLionProjects/ActivityRegister/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object test/CMakeFiles/runTests.dir/dateTest.cpp.o"
+	cd /home/simone/CLionProjects/ActivityRegister/cmake-build-debug/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runTests.dir/dateTest.cpp.o -c /home/simone/CLionProjects/ActivityRegister/test/dateTest.cpp
 
 test/CMakeFiles/runTests.dir/dateTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runTests.dir/dateTest.cpp.i"
-	cd /home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/simone/CLionProjects/qtHelloWorld/test/dateTest.cpp > CMakeFiles/runTests.dir/dateTest.cpp.i
+	cd /home/simone/CLionProjects/ActivityRegister/cmake-build-debug/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/simone/CLionProjects/ActivityRegister/test/dateTest.cpp > CMakeFiles/runTests.dir/dateTest.cpp.i
 
 test/CMakeFiles/runTests.dir/dateTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runTests.dir/dateTest.cpp.s"
-	cd /home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/simone/CLionProjects/qtHelloWorld/test/dateTest.cpp -o CMakeFiles/runTests.dir/dateTest.cpp.s
+	cd /home/simone/CLionProjects/ActivityRegister/cmake-build-debug/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/simone/CLionProjects/ActivityRegister/test/dateTest.cpp -o CMakeFiles/runTests.dir/dateTest.cpp.s
 
 # Object files for target runTests
 runTests_OBJECTS = \
 "CMakeFiles/runTests.dir/runTests_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/runTests.dir/runAllTests.cpp.o" \
-"CMakeFiles/runTests.dir/scheduleTest.cpp.o" \
+"CMakeFiles/runTests.dir/timeTest.cpp.o" \
 "CMakeFiles/runTests.dir/dateTest.cpp.o"
 
 # External object files for target runTests
@@ -121,7 +121,7 @@ runTests_EXTERNAL_OBJECTS =
 
 test/runTests: test/CMakeFiles/runTests.dir/runTests_autogen/mocs_compilation.cpp.o
 test/runTests: test/CMakeFiles/runTests.dir/runAllTests.cpp.o
-test/runTests: test/CMakeFiles/runTests.dir/scheduleTest.cpp.o
+test/runTests: test/CMakeFiles/runTests.dir/timeTest.cpp.o
 test/runTests: test/CMakeFiles/runTests.dir/dateTest.cpp.o
 test/runTests: test/CMakeFiles/runTests.dir/build.make
 test/runTests: lib/libgtestd.a
@@ -129,8 +129,8 @@ test/runTests: lib/libgtest_maind.a
 test/runTests: libcore.a
 test/runTests: lib/libgtestd.a
 test/runTests: test/CMakeFiles/runTests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable runTests"
-	cd /home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/runTests.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/simone/CLionProjects/ActivityRegister/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable runTests"
+	cd /home/simone/CLionProjects/ActivityRegister/cmake-build-debug/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/runTests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 test/CMakeFiles/runTests.dir/build: test/runTests
@@ -138,10 +138,10 @@ test/CMakeFiles/runTests.dir/build: test/runTests
 .PHONY : test/CMakeFiles/runTests.dir/build
 
 test/CMakeFiles/runTests.dir/clean:
-	cd /home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/test && $(CMAKE_COMMAND) -P CMakeFiles/runTests.dir/cmake_clean.cmake
+	cd /home/simone/CLionProjects/ActivityRegister/cmake-build-debug/test && $(CMAKE_COMMAND) -P CMakeFiles/runTests.dir/cmake_clean.cmake
 .PHONY : test/CMakeFiles/runTests.dir/clean
 
 test/CMakeFiles/runTests.dir/depend:
-	cd /home/simone/CLionProjects/qtHelloWorld/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/simone/CLionProjects/qtHelloWorld /home/simone/CLionProjects/qtHelloWorld/test /home/simone/CLionProjects/qtHelloWorld/cmake-build-debug /home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/test /home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/test/CMakeFiles/runTests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/simone/CLionProjects/ActivityRegister/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/simone/CLionProjects/ActivityRegister /home/simone/CLionProjects/ActivityRegister/test /home/simone/CLionProjects/ActivityRegister/cmake-build-debug /home/simone/CLionProjects/ActivityRegister/cmake-build-debug/test /home/simone/CLionProjects/ActivityRegister/cmake-build-debug/test/CMakeFiles/runTests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : test/CMakeFiles/runTests.dir/depend
 

@@ -5,7 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/runTests.dir/dateTest.cpp.o"
   "CMakeFiles/runTests.dir/runAllTests.cpp.o"
   "CMakeFiles/runTests.dir/runTests_autogen/mocs_compilation.cpp.o"
-  "CMakeFiles/runTests.dir/scheduleTest.cpp.o"
+  "CMakeFiles/runTests.dir/timeTest.cpp.o"
   "runTests"
   "runTests.pdb"
 )

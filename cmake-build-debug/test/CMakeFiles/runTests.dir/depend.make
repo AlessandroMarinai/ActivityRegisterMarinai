@@ -22,6 +22,7 @@ test/CMakeFiles/runTests.dir/dateTest.cpp.o: ../test/lib/googletest/googletest/i
 test/CMakeFiles/runTests.dir/dateTest.cpp.o: ../test/lib/googletest/googletest/include/gtest/internal/gtest-string.h
 test/CMakeFiles/runTests.dir/dateTest.cpp.o: ../test/lib/googletest/googletest/include/gtest/internal/gtest-type-util.h
 test/CMakeFiles/runTests.dir/dateTest.cpp.o: ../Date.h
+test/CMakeFiles/runTests.dir/dateTest.cpp.o: ../Time.h
 test/CMakeFiles/runTests.dir/dateTest.cpp.o: ../test/dateTest.cpp
 
 test/CMakeFiles/runTests.dir/runAllTests.cpp.o: ../test/lib/googletest/googletest/include/gtest/gtest-death-test.h
@@ -48,26 +49,26 @@ test/CMakeFiles/runTests.dir/runAllTests.cpp.o: ../test/runAllTests.cpp
 
 test/CMakeFiles/runTests.dir/runTests_autogen/mocs_compilation.cpp.o: test/runTests_autogen/mocs_compilation.cpp
 
-test/CMakeFiles/runTests.dir/scheduleTest.cpp.o: ../test/lib/googletest/googletest/include/gtest/gtest-death-test.h
-test/CMakeFiles/runTests.dir/scheduleTest.cpp.o: ../test/lib/googletest/googletest/include/gtest/gtest-matchers.h
-test/CMakeFiles/runTests.dir/scheduleTest.cpp.o: ../test/lib/googletest/googletest/include/gtest/gtest-message.h
-test/CMakeFiles/runTests.dir/scheduleTest.cpp.o: ../test/lib/googletest/googletest/include/gtest/gtest-param-test.h
-test/CMakeFiles/runTests.dir/scheduleTest.cpp.o: ../test/lib/googletest/googletest/include/gtest/gtest-printers.h
-test/CMakeFiles/runTests.dir/scheduleTest.cpp.o: ../test/lib/googletest/googletest/include/gtest/gtest-test-part.h
-test/CMakeFiles/runTests.dir/scheduleTest.cpp.o: ../test/lib/googletest/googletest/include/gtest/gtest-typed-test.h
-test/CMakeFiles/runTests.dir/scheduleTest.cpp.o: ../test/lib/googletest/googletest/include/gtest/gtest.h
-test/CMakeFiles/runTests.dir/scheduleTest.cpp.o: ../test/lib/googletest/googletest/include/gtest/gtest_pred_impl.h
-test/CMakeFiles/runTests.dir/scheduleTest.cpp.o: ../test/lib/googletest/googletest/include/gtest/gtest_prod.h
-test/CMakeFiles/runTests.dir/scheduleTest.cpp.o: ../test/lib/googletest/googletest/include/gtest/internal/custom/gtest-port.h
-test/CMakeFiles/runTests.dir/scheduleTest.cpp.o: ../test/lib/googletest/googletest/include/gtest/internal/custom/gtest-printers.h
-test/CMakeFiles/runTests.dir/scheduleTest.cpp.o: ../test/lib/googletest/googletest/include/gtest/internal/gtest-death-test-internal.h
-test/CMakeFiles/runTests.dir/scheduleTest.cpp.o: ../test/lib/googletest/googletest/include/gtest/internal/gtest-filepath.h
-test/CMakeFiles/runTests.dir/scheduleTest.cpp.o: ../test/lib/googletest/googletest/include/gtest/internal/gtest-internal.h
-test/CMakeFiles/runTests.dir/scheduleTest.cpp.o: ../test/lib/googletest/googletest/include/gtest/internal/gtest-param-util.h
-test/CMakeFiles/runTests.dir/scheduleTest.cpp.o: ../test/lib/googletest/googletest/include/gtest/internal/gtest-port-arch.h
-test/CMakeFiles/runTests.dir/scheduleTest.cpp.o: ../test/lib/googletest/googletest/include/gtest/internal/gtest-port.h
-test/CMakeFiles/runTests.dir/scheduleTest.cpp.o: ../test/lib/googletest/googletest/include/gtest/internal/gtest-string.h
-test/CMakeFiles/runTests.dir/scheduleTest.cpp.o: ../test/lib/googletest/googletest/include/gtest/internal/gtest-type-util.h
-test/CMakeFiles/runTests.dir/scheduleTest.cpp.o: ../Schedule.h
-test/CMakeFiles/runTests.dir/scheduleTest.cpp.o: ../test/scheduleTest.cpp
+test/CMakeFiles/runTests.dir/timeTest.cpp.o: ../test/lib/googletest/googletest/include/gtest/gtest-death-test.h
+test/CMakeFiles/runTests.dir/timeTest.cpp.o: ../test/lib/googletest/googletest/include/gtest/gtest-matchers.h
+test/CMakeFiles/runTests.dir/timeTest.cpp.o: ../test/lib/googletest/googletest/include/gtest/gtest-message.h
+test/CMakeFiles/runTests.dir/timeTest.cpp.o: ../test/lib/googletest/googletest/include/gtest/gtest-param-test.h
+test/CMakeFiles/runTests.dir/timeTest.cpp.o: ../test/lib/googletest/googletest/include/gtest/gtest-printers.h
+test/CMakeFiles/runTests.dir/timeTest.cpp.o: ../test/lib/googletest/googletest/include/gtest/gtest-test-part.h
+test/CMakeFiles/runTests.dir/timeTest.cpp.o: ../test/lib/googletest/googletest/include/gtest/gtest-typed-test.h
+test/CMakeFiles/runTests.dir/timeTest.cpp.o: ../test/lib/googletest/googletest/include/gtest/gtest.h
+test/CMakeFiles/runTests.dir/timeTest.cpp.o: ../test/lib/googletest/googletest/include/gtest/gtest_pred_impl.h
+test/CMakeFiles/runTests.dir/timeTest.cpp.o: ../test/lib/googletest/googletest/include/gtest/gtest_prod.h
+test/CMakeFiles/runTests.dir/timeTest.cpp.o: ../test/lib/googletest/googletest/include/gtest/internal/custom/gtest-port.h
+test/CMakeFiles/runTests.dir/timeTest.cpp.o: ../test/lib/googletest/googletest/include/gtest/internal/custom/gtest-printers.h
+test/CMakeFiles/runTests.dir/timeTest.cpp.o: ../test/lib/googletest/googletest/include/gtest/internal/gtest-death-test-internal.h
+test/CMakeFiles/runTests.dir/timeTest.cpp.o: ../test/lib/googletest/googletest/include/gtest/internal/gtest-filepath.h
+test/CMakeFiles/runTests.dir/timeTest.cpp.o: ../test/lib/googletest/googletest/include/gtest/internal/gtest-internal.h
+test/CMakeFiles/runTests.dir/timeTest.cpp.o: ../test/lib/googletest/googletest/include/gtest/internal/gtest-param-util.h
+test/CMakeFiles/runTests.dir/timeTest.cpp.o: ../test/lib/googletest/googletest/include/gtest/internal/gtest-port-arch.h
+test/CMakeFiles/runTests.dir/timeTest.cpp.o: ../test/lib/googletest/googletest/include/gtest/internal/gtest-port.h
+test/CMakeFiles/runTests.dir/timeTest.cpp.o: ../test/lib/googletest/googletest/include/gtest/internal/gtest-string.h
+test/CMakeFiles/runTests.dir/timeTest.cpp.o: ../test/lib/googletest/googletest/include/gtest/internal/gtest-type-util.h
+test/CMakeFiles/runTests.dir/timeTest.cpp.o: ../Time.h
+test/CMakeFiles/runTests.dir/timeTest.cpp.o: ../test/timeTest.cpp
 

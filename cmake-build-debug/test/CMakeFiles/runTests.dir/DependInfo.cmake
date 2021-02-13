@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/simone/CLionProjects/qtHelloWorld/test/dateTest.cpp" "/home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/test/CMakeFiles/runTests.dir/dateTest.cpp.o"
-  "/home/simone/CLionProjects/qtHelloWorld/test/runAllTests.cpp" "/home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/test/CMakeFiles/runTests.dir/runAllTests.cpp.o"
-  "/home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/test/runTests_autogen/mocs_compilation.cpp" "/home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/test/CMakeFiles/runTests.dir/runTests_autogen/mocs_compilation.cpp.o"
-  "/home/simone/CLionProjects/qtHelloWorld/test/scheduleTest.cpp" "/home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/test/CMakeFiles/runTests.dir/scheduleTest.cpp.o"
+  "/home/simone/CLionProjects/ActivityRegister/test/dateTest.cpp" "/home/simone/CLionProjects/ActivityRegister/cmake-build-debug/test/CMakeFiles/runTests.dir/dateTest.cpp.o"
+  "/home/simone/CLionProjects/ActivityRegister/test/runAllTests.cpp" "/home/simone/CLionProjects/ActivityRegister/cmake-build-debug/test/CMakeFiles/runTests.dir/runAllTests.cpp.o"
+  "/home/simone/CLionProjects/ActivityRegister/cmake-build-debug/test/runTests_autogen/mocs_compilation.cpp" "/home/simone/CLionProjects/ActivityRegister/cmake-build-debug/test/CMakeFiles/runTests.dir/runTests_autogen/mocs_compilation.cpp.o"
+  "/home/simone/CLionProjects/ActivityRegister/test/timeTest.cpp" "/home/simone/CLionProjects/ActivityRegister/cmake-build-debug/test/CMakeFiles/runTests.dir/timeTest.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -22,9 +22,9 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/test/lib/googletest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
-  "/home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/test/lib/googletest/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
-  "/home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/CMakeFiles/core.dir/DependInfo.cmake"
+  "/home/simone/CLionProjects/ActivityRegister/cmake-build-debug/test/lib/googletest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
+  "/home/simone/CLionProjects/ActivityRegister/cmake-build-debug/test/lib/googletest/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
+  "/home/simone/CLionProjects/ActivityRegister/cmake-build-debug/CMakeFiles/core.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

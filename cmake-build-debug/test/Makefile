@@ -48,10 +48,10 @@ RM = /home/simone/Downloads/clion-2020.1.2/bin/cmake/linux/bin/cmake -E remove -
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/simone/CLionProjects/qtHelloWorld
+CMAKE_SOURCE_DIR = /home/simone/CLionProjects/ActivityRegister
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/simone/CLionProjects/qtHelloWorld/cmake-build-debug
+CMAKE_BINARY_DIR = /home/simone/CLionProjects/ActivityRegister/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/simone/CLionProjects/qtHelloWorld/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/CMakeFiles /home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/test/CMakeFiles/progress.marks
-	cd /home/simone/CLionProjects/qtHelloWorld/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 test/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/CMakeFiles 0
+	cd /home/simone/CLionProjects/ActivityRegister/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/simone/CLionProjects/ActivityRegister/cmake-build-debug/CMakeFiles /home/simone/CLionProjects/ActivityRegister/cmake-build-debug/test/CMakeFiles/progress.marks
+	cd /home/simone/CLionProjects/ActivityRegister/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 test/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/simone/CLionProjects/ActivityRegister/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/simone/CLionProjects/qtHelloWorld/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 test/clean
+	cd /home/simone/CLionProjects/ActivityRegister/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 test/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/simone/CLionProjects/qtHelloWorld/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
+	cd /home/simone/CLionProjects/ActivityRegister/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/simone/CLionProjects/qtHelloWorld/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
+	cd /home/simone/CLionProjects/ActivityRegister/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/simone/CLionProjects/qtHelloWorld/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/simone/CLionProjects/ActivityRegister/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 test/CMakeFiles/runTests.dir/rule:
-	cd /home/simone/CLionProjects/qtHelloWorld/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/runTests.dir/rule
+	cd /home/simone/CLionProjects/ActivityRegister/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/runTests.dir/rule
 .PHONY : test/CMakeFiles/runTests.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ runTests: test/CMakeFiles/runTests.dir/rule
 
 # fast build rule for target.
 runTests/fast:
-	cd /home/simone/CLionProjects/qtHelloWorld/cmake-build-debug && $(MAKE) -f test/CMakeFiles/runTests.dir/build.make test/CMakeFiles/runTests.dir/build
+	cd /home/simone/CLionProjects/ActivityRegister/cmake-build-debug && $(MAKE) -f test/CMakeFiles/runTests.dir/build.make test/CMakeFiles/runTests.dir/build
 .PHONY : runTests/fast
 
 # Convenience name for target.
 test/CMakeFiles/runTests_autogen.dir/rule:
-	cd /home/simone/CLionProjects/qtHelloWorld/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/runTests_autogen.dir/rule
+	cd /home/simone/CLionProjects/ActivityRegister/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/runTests_autogen.dir/rule
 .PHONY : test/CMakeFiles/runTests_autogen.dir/rule
 
 # Convenience name for target.
@@ -183,7 +183,7 @@ runTests_autogen: test/CMakeFiles/runTests_autogen.dir/rule
 
 # fast build rule for target.
 runTests_autogen/fast:
-	cd /home/simone/CLionProjects/qtHelloWorld/cmake-build-debug && $(MAKE) -f test/CMakeFiles/runTests_autogen.dir/build.make test/CMakeFiles/runTests_autogen.dir/build
+	cd /home/simone/CLionProjects/ActivityRegister/cmake-build-debug && $(MAKE) -f test/CMakeFiles/runTests_autogen.dir/build.make test/CMakeFiles/runTests_autogen.dir/build
 .PHONY : runTests_autogen/fast
 
 dateTest.o: dateTest.cpp.o
@@ -192,7 +192,7 @@ dateTest.o: dateTest.cpp.o
 
 # target to build an object file
 dateTest.cpp.o:
-	cd /home/simone/CLionProjects/qtHelloWorld/cmake-build-debug && $(MAKE) -f test/CMakeFiles/runTests.dir/build.make test/CMakeFiles/runTests.dir/dateTest.cpp.o
+	cd /home/simone/CLionProjects/ActivityRegister/cmake-build-debug && $(MAKE) -f test/CMakeFiles/runTests.dir/build.make test/CMakeFiles/runTests.dir/dateTest.cpp.o
 .PHONY : dateTest.cpp.o
 
 dateTest.i: dateTest.cpp.i
@@ -201,7 +201,7 @@ dateTest.i: dateTest.cpp.i
 
 # target to preprocess a source file
 dateTest.cpp.i:
-	cd /home/simone/CLionProjects/qtHelloWorld/cmake-build-debug && $(MAKE) -f test/CMakeFiles/runTests.dir/build.make test/CMakeFiles/runTests.dir/dateTest.cpp.i
+	cd /home/simone/CLionProjects/ActivityRegister/cmake-build-debug && $(MAKE) -f test/CMakeFiles/runTests.dir/build.make test/CMakeFiles/runTests.dir/dateTest.cpp.i
 .PHONY : dateTest.cpp.i
 
 dateTest.s: dateTest.cpp.s
@@ -210,7 +210,7 @@ dateTest.s: dateTest.cpp.s
 
 # target to generate assembly for a file
 dateTest.cpp.s:
-	cd /home/simone/CLionProjects/qtHelloWorld/cmake-build-debug && $(MAKE) -f test/CMakeFiles/runTests.dir/build.make test/CMakeFiles/runTests.dir/dateTest.cpp.s
+	cd /home/simone/CLionProjects/ActivityRegister/cmake-build-debug && $(MAKE) -f test/CMakeFiles/runTests.dir/build.make test/CMakeFiles/runTests.dir/dateTest.cpp.s
 .PHONY : dateTest.cpp.s
 
 runAllTests.o: runAllTests.cpp.o
@@ -219,7 +219,7 @@ runAllTests.o: runAllTests.cpp.o
 
 # target to build an object file
 runAllTests.cpp.o:
-	cd /home/simone/CLionProjects/qtHelloWorld/cmake-build-debug && $(MAKE) -f test/CMakeFiles/runTests.dir/build.make test/CMakeFiles/runTests.dir/runAllTests.cpp.o
+	cd /home/simone/CLionProjects/ActivityRegister/cmake-build-debug && $(MAKE) -f test/CMakeFiles/runTests.dir/build.make test/CMakeFiles/runTests.dir/runAllTests.cpp.o
 .PHONY : runAllTests.cpp.o
 
 runAllTests.i: runAllTests.cpp.i
@@ -228,7 +228,7 @@ runAllTests.i: runAllTests.cpp.i
 
 # target to preprocess a source file
 runAllTests.cpp.i:
-	cd /home/simone/CLionProjects/qtHelloWorld/cmake-build-debug && $(MAKE) -f test/CMakeFiles/runTests.dir/build.make test/CMakeFiles/runTests.dir/runAllTests.cpp.i
+	cd /home/simone/CLionProjects/ActivityRegister/cmake-build-debug && $(MAKE) -f test/CMakeFiles/runTests.dir/build.make test/CMakeFiles/runTests.dir/runAllTests.cpp.i
 .PHONY : runAllTests.cpp.i
 
 runAllTests.s: runAllTests.cpp.s
@@ -237,7 +237,7 @@ runAllTests.s: runAllTests.cpp.s
 
 # target to generate assembly for a file
 runAllTests.cpp.s:
-	cd /home/simone/CLionProjects/qtHelloWorld/cmake-build-debug && $(MAKE) -f test/CMakeFiles/runTests.dir/build.make test/CMakeFiles/runTests.dir/runAllTests.cpp.s
+	cd /home/simone/CLionProjects/ActivityRegister/cmake-build-debug && $(MAKE) -f test/CMakeFiles/runTests.dir/build.make test/CMakeFiles/runTests.dir/runAllTests.cpp.s
 .PHONY : runAllTests.cpp.s
 
 runTests_autogen/mocs_compilation.o: runTests_autogen/mocs_compilation.cpp.o
@@ -246,7 +246,7 @@ runTests_autogen/mocs_compilation.o: runTests_autogen/mocs_compilation.cpp.o
 
 # target to build an object file
 runTests_autogen/mocs_compilation.cpp.o:
-	cd /home/simone/CLionProjects/qtHelloWorld/cmake-build-debug && $(MAKE) -f test/CMakeFiles/runTests.dir/build.make test/CMakeFiles/runTests.dir/runTests_autogen/mocs_compilation.cpp.o
+	cd /home/simone/CLionProjects/ActivityRegister/cmake-build-debug && $(MAKE) -f test/CMakeFiles/runTests.dir/build.make test/CMakeFiles/runTests.dir/runTests_autogen/mocs_compilation.cpp.o
 .PHONY : runTests_autogen/mocs_compilation.cpp.o
 
 runTests_autogen/mocs_compilation.i: runTests_autogen/mocs_compilation.cpp.i
@@ -255,7 +255,7 @@ runTests_autogen/mocs_compilation.i: runTests_autogen/mocs_compilation.cpp.i
 
 # target to preprocess a source file
 runTests_autogen/mocs_compilation.cpp.i:
-	cd /home/simone/CLionProjects/qtHelloWorld/cmake-build-debug && $(MAKE) -f test/CMakeFiles/runTests.dir/build.make test/CMakeFiles/runTests.dir/runTests_autogen/mocs_compilation.cpp.i
+	cd /home/simone/CLionProjects/ActivityRegister/cmake-build-debug && $(MAKE) -f test/CMakeFiles/runTests.dir/build.make test/CMakeFiles/runTests.dir/runTests_autogen/mocs_compilation.cpp.i
 .PHONY : runTests_autogen/mocs_compilation.cpp.i
 
 runTests_autogen/mocs_compilation.s: runTests_autogen/mocs_compilation.cpp.s
@@ -264,35 +264,35 @@ runTests_autogen/mocs_compilation.s: runTests_autogen/mocs_compilation.cpp.s
 
 # target to generate assembly for a file
 runTests_autogen/mocs_compilation.cpp.s:
-	cd /home/simone/CLionProjects/qtHelloWorld/cmake-build-debug && $(MAKE) -f test/CMakeFiles/runTests.dir/build.make test/CMakeFiles/runTests.dir/runTests_autogen/mocs_compilation.cpp.s
+	cd /home/simone/CLionProjects/ActivityRegister/cmake-build-debug && $(MAKE) -f test/CMakeFiles/runTests.dir/build.make test/CMakeFiles/runTests.dir/runTests_autogen/mocs_compilation.cpp.s
 .PHONY : runTests_autogen/mocs_compilation.cpp.s
 
-scheduleTest.o: scheduleTest.cpp.o
+timeTest.o: timeTest.cpp.o
 
-.PHONY : scheduleTest.o
+.PHONY : timeTest.o
 
 # target to build an object file
-scheduleTest.cpp.o:
-	cd /home/simone/CLionProjects/qtHelloWorld/cmake-build-debug && $(MAKE) -f test/CMakeFiles/runTests.dir/build.make test/CMakeFiles/runTests.dir/scheduleTest.cpp.o
-.PHONY : scheduleTest.cpp.o
+timeTest.cpp.o:
+	cd /home/simone/CLionProjects/ActivityRegister/cmake-build-debug && $(MAKE) -f test/CMakeFiles/runTests.dir/build.make test/CMakeFiles/runTests.dir/timeTest.cpp.o
+.PHONY : timeTest.cpp.o
 
-scheduleTest.i: scheduleTest.cpp.i
+timeTest.i: timeTest.cpp.i
 
-.PHONY : scheduleTest.i
+.PHONY : timeTest.i
 
 # target to preprocess a source file
-scheduleTest.cpp.i:
-	cd /home/simone/CLionProjects/qtHelloWorld/cmake-build-debug && $(MAKE) -f test/CMakeFiles/runTests.dir/build.make test/CMakeFiles/runTests.dir/scheduleTest.cpp.i
-.PHONY : scheduleTest.cpp.i
+timeTest.cpp.i:
+	cd /home/simone/CLionProjects/ActivityRegister/cmake-build-debug && $(MAKE) -f test/CMakeFiles/runTests.dir/build.make test/CMakeFiles/runTests.dir/timeTest.cpp.i
+.PHONY : timeTest.cpp.i
 
-scheduleTest.s: scheduleTest.cpp.s
+timeTest.s: timeTest.cpp.s
 
-.PHONY : scheduleTest.s
+.PHONY : timeTest.s
 
 # target to generate assembly for a file
-scheduleTest.cpp.s:
-	cd /home/simone/CLionProjects/qtHelloWorld/cmake-build-debug && $(MAKE) -f test/CMakeFiles/runTests.dir/build.make test/CMakeFiles/runTests.dir/scheduleTest.cpp.s
-.PHONY : scheduleTest.cpp.s
+timeTest.cpp.s:
+	cd /home/simone/CLionProjects/ActivityRegister/cmake-build-debug && $(MAKE) -f test/CMakeFiles/runTests.dir/build.make test/CMakeFiles/runTests.dir/timeTest.cpp.s
+.PHONY : timeTest.cpp.s
 
 # Help Target
 help:
@@ -317,9 +317,9 @@ help:
 	@echo "... runTests_autogen/mocs_compilation.o"
 	@echo "... runTests_autogen/mocs_compilation.i"
 	@echo "... runTests_autogen/mocs_compilation.s"
-	@echo "... scheduleTest.o"
-	@echo "... scheduleTest.i"
-	@echo "... scheduleTest.s"
+	@echo "... timeTest.o"
+	@echo "... timeTest.i"
+	@echo "... timeTest.s"
 .PHONY : help
 
 
@@ -331,6 +331,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/simone/CLionProjects/qtHelloWorld/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/simone/CLionProjects/ActivityRegister/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
