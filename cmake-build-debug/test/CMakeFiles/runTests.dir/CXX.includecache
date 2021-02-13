@@ -330,11 +330,27 @@ cxxabi.h
 acxx_demangle.h
 -
 
-/home/simone/CLionProjects/qtHelloWorld/Time.h
+/home/simone/CLionProjects/ActivityRegister/Date.h
+Time.h
+/home/simone/CLionProjects/ActivityRegister/Time.h
 
-/home/simone/CLionProjects/qtHelloWorld/test/timeTest.cpp
+/home/simone/CLionProjects/ActivityRegister/Time.h
+
+/home/simone/CLionProjects/ActivityRegister/cmake-build-debug/test/runTests_autogen/mocs_compilation.cpp
+
+/home/simone/CLionProjects/ActivityRegister/test/dateTest.cpp
 gtest/gtest.h
-/home/simone/CLionProjects/qtHelloWorld/test/gtest/gtest.h
+/home/simone/CLionProjects/ActivityRegister/test/gtest/gtest.h
+../Date.h
+/home/simone/CLionProjects/ActivityRegister/Date.h
+
+/home/simone/CLionProjects/ActivityRegister/test/runAllTests.cpp
+gtest/gtest.h
+/home/simone/CLionProjects/ActivityRegister/test/gtest/gtest.h
+
+/home/simone/CLionProjects/ActivityRegister/test/timeTest.cpp
+gtest/gtest.h
+/home/simone/CLionProjects/ActivityRegister/test/gtest/gtest.h
 ../Time.h
-/home/simone/CLionProjects/qtHelloWorld/Time.h
+/home/simone/CLionProjects/ActivityRegister/Time.h
 

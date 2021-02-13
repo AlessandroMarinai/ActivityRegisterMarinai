@@ -330,11 +330,11 @@ cxxabi.h
 acxx_demangle.h
 -
 
-/home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/test/lib/googletest/googletest/gtest_main_autogen/mocs_compilation.cpp
+/home/simone/CLionProjects/ActivityRegister/cmake-build-debug/test/lib/googletest/googletest/gtest_main_autogen/mocs_compilation.cpp
 
-/home/simone/CLionProjects/qtHelloWorld/test/lib/googletest/googletest/src/gtest_main.cc
+/home/simone/CLionProjects/ActivityRegister/test/lib/googletest/googletest/src/gtest_main.cc
 cstdio
 -
 gtest/gtest.h
-/home/simone/CLionProjects/qtHelloWorld/test/lib/googletest/googletest/src/gtest/gtest.h
+/home/simone/CLionProjects/ActivityRegister/test/lib/googletest/googletest/src/gtest/gtest.h
 

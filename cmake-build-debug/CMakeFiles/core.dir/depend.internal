@@ -6,12 +6,4 @@ CMakeFiles/core.dir/Date.cpp.o
  /home/simone/CLionProjects/ActivityRegister/Date.h
  /home/simone/CLionProjects/ActivityRegister/Time.h
 CMakeFiles/core.dir/core_autogen/mocs_compilation.cpp.o
- ../Activity.h
- ../AddNewActivityDialog.h
- ../Date.h
- ../MainDialog.h
- ../Register.h
- ../SavedOrNotDialog.h
- ../Time.h
- /home/simone/CLionProjects/ActivityRegister/cmake-build-debug/core_autogen/EWIEGA46WW/moc_Register.cpp
  /home/simone/CLionProjects/ActivityRegister/cmake-build-debug/core_autogen/mocs_compilation.cpp

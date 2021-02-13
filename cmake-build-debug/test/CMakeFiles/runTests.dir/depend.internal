@@ -22,9 +22,9 @@ test/CMakeFiles/runTests.dir/dateTest.cpp.o
  ../test/lib/googletest/googletest/include/gtest/internal/gtest-port.h
  ../test/lib/googletest/googletest/include/gtest/internal/gtest-string.h
  ../test/lib/googletest/googletest/include/gtest/internal/gtest-type-util.h
- /home/simone/CLionProjects/qtHelloWorld/Date.h
- /home/simone/CLionProjects/qtHelloWorld/Time.h
- /home/simone/CLionProjects/qtHelloWorld/test/dateTest.cpp
+ /home/simone/CLionProjects/ActivityRegister/Date.h
+ /home/simone/CLionProjects/ActivityRegister/Time.h
+ /home/simone/CLionProjects/ActivityRegister/test/dateTest.cpp
 test/CMakeFiles/runTests.dir/runAllTests.cpp.o
  ../test/lib/googletest/googletest/include/gtest/gtest-death-test.h
  ../test/lib/googletest/googletest/include/gtest/gtest-matchers.h
@@ -46,9 +46,9 @@ test/CMakeFiles/runTests.dir/runAllTests.cpp.o
  ../test/lib/googletest/googletest/include/gtest/internal/gtest-port.h
  ../test/lib/googletest/googletest/include/gtest/internal/gtest-string.h
  ../test/lib/googletest/googletest/include/gtest/internal/gtest-type-util.h
- /home/simone/CLionProjects/qtHelloWorld/test/runAllTests.cpp
+ /home/simone/CLionProjects/ActivityRegister/test/runAllTests.cpp
 test/CMakeFiles/runTests.dir/runTests_autogen/mocs_compilation.cpp.o
- /home/simone/CLionProjects/qtHelloWorld/cmake-build-debug/test/runTests_autogen/mocs_compilation.cpp
+ /home/simone/CLionProjects/ActivityRegister/cmake-build-debug/test/runTests_autogen/mocs_compilation.cpp
 test/CMakeFiles/runTests.dir/timeTest.cpp.o
  ../test/lib/googletest/googletest/include/gtest/gtest-death-test.h
  ../test/lib/googletest/googletest/include/gtest/gtest-matchers.h
@@ -70,5 +70,5 @@ test/CMakeFiles/runTests.dir/timeTest.cpp.o
  ../test/lib/googletest/googletest/include/gtest/internal/gtest-port.h
  ../test/lib/googletest/googletest/include/gtest/internal/gtest-string.h
  ../test/lib/googletest/googletest/include/gtest/internal/gtest-type-util.h
- /home/simone/CLionProjects/qtHelloWorld/Time.h
- /home/simone/CLionProjects/qtHelloWorld/test/timeTest.cpp
+ /home/simone/CLionProjects/ActivityRegister/Time.h
+ /home/simone/CLionProjects/ActivityRegister/test/timeTest.cpp

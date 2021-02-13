@@ -6,15 +6,21 @@ void EventsDisplayerDialog::showEventsOnData() {
     auto activities = aRegister->getActivities();
     int numberOfActivities = aRegister->getActualNumberOfActivities();
     int numOfActivitiesShown = 1;
-    delete mainLayout; //in order to "forget" the previous data shown
-    mainLayout = new QVBoxLayout;
+    resetLayout(mainLayout);
     QString title = "Activities for " + QString::number(date.getDay()) + "/" +
             QString::number(date.getMonth()) + "/" + QString::number(date.getYear());
     setWindowTitle(title);
+    bool found = false;
     for ( int i=0 ; i<numberOfActivities; i++){
         if (activities[i]->getDate() == date) {
             addNewActivityToShow(*activities[i], numOfActivitiesShown);
+            found = true;
+            numOfActivitiesShown++;
         }
+    }
+    if (!found) {
+        auto label = new QLabel(tr("No activities in this date, you can add activities from the previous dialog"));
+        mainLayout->addWidget(label);
     }
     setLayout(mainLayout);
     this->show();
