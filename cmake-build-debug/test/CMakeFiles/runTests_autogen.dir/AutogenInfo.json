@@ -9,7 +9,7 @@
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "/home/simone/CLionProjects/ActivityRegister/cmake-build-debug/test/runTests_autogen/include",
 	"MOC_COMPILATION_FILE" : "/home/simone/CLionProjects/ActivityRegister/cmake-build-debug/test/runTests_autogen/mocs_compilation.cpp",
-	"MOC_DEFINITIONS" : [],
+	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_WIDGETS_LIB" ],
 	"MOC_DEPEND_FILTERS" : 
 	[
 		[
@@ -23,14 +23,19 @@
 		"/home/simone/CLionProjects/ActivityRegister/test",
 		"/home/simone/CLionProjects/ActivityRegister/test/lib/googletest/googletest/include",
 		"/home/simone/CLionProjects/ActivityRegister/test/lib/googletest/googletest",
+		"/usr/include/x86_64-linux-gnu/qt5",
+		"/usr/include/x86_64-linux-gnu/qt5/QtWidgets",
+		"/usr/include/x86_64-linux-gnu/qt5/QtGui",
+		"/usr/include/x86_64-linux-gnu/qt5/QtCore",
+		"/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++",
+		"/usr/include",
 		"/usr/include/c++/7",
 		"/usr/include/x86_64-linux-gnu/c++/7",
 		"/usr/include/c++/7/backward",
 		"/usr/lib/gcc/x86_64-linux-gnu/7/include",
 		"/usr/local/include",
 		"/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed",
-		"/usr/include/x86_64-linux-gnu",
-		"/usr/include"
+		"/usr/include/x86_64-linux-gnu"
 	],
 	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE" ],
 	"MOC_OPTIONS" : [],
@@ -56,6 +61,10 @@
 	"SOURCES" : 
 	[
 		[ "/home/simone/CLionProjects/ActivityRegister/test/dateTest.cpp", "Mu" ],
+		[
+			"/home/simone/CLionProjects/ActivityRegister/test/registerTest.cpp",
+			"Mu"
+		],
 		[
 			"/home/simone/CLionProjects/ActivityRegister/test/runAllTests.cpp",
 			"Mu"

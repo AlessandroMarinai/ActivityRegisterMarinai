@@ -25,6 +25,61 @@ test/CMakeFiles/runTests.dir/dateTest.cpp.o
  /home/simone/CLionProjects/ActivityRegister/Date.h
  /home/simone/CLionProjects/ActivityRegister/Time.h
  /home/simone/CLionProjects/ActivityRegister/test/dateTest.cpp
+test/CMakeFiles/runTests.dir/registerTest.cpp.o
+ ../test/lib/googletest/googletest/include/gtest/gtest-death-test.h
+ ../test/lib/googletest/googletest/include/gtest/gtest-matchers.h
+ ../test/lib/googletest/googletest/include/gtest/gtest-message.h
+ ../test/lib/googletest/googletest/include/gtest/gtest-param-test.h
+ ../test/lib/googletest/googletest/include/gtest/gtest-printers.h
+ ../test/lib/googletest/googletest/include/gtest/gtest-test-part.h
+ ../test/lib/googletest/googletest/include/gtest/gtest-typed-test.h
+ ../test/lib/googletest/googletest/include/gtest/gtest.h
+ ../test/lib/googletest/googletest/include/gtest/gtest_pred_impl.h
+ ../test/lib/googletest/googletest/include/gtest/gtest_prod.h
+ ../test/lib/googletest/googletest/include/gtest/internal/custom/gtest-port.h
+ ../test/lib/googletest/googletest/include/gtest/internal/custom/gtest-printers.h
+ ../test/lib/googletest/googletest/include/gtest/internal/gtest-death-test-internal.h
+ ../test/lib/googletest/googletest/include/gtest/internal/gtest-filepath.h
+ ../test/lib/googletest/googletest/include/gtest/internal/gtest-internal.h
+ ../test/lib/googletest/googletest/include/gtest/internal/gtest-param-util.h
+ ../test/lib/googletest/googletest/include/gtest/internal/gtest-port-arch.h
+ ../test/lib/googletest/googletest/include/gtest/internal/gtest-port.h
+ ../test/lib/googletest/googletest/include/gtest/internal/gtest-string.h
+ ../test/lib/googletest/googletest/include/gtest/internal/gtest-type-util.h
+ /home/simone/CLionProjects/ActivityRegister/Activity.h
+ /home/simone/CLionProjects/ActivityRegister/Date.h
+ /home/simone/CLionProjects/ActivityRegister/Register.h
+ /home/simone/CLionProjects/ActivityRegister/Time.h
+ /home/simone/CLionProjects/ActivityRegister/test/registerTest.cpp
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QString
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_bootstrap.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_cxx11.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_msvc.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasicatomic.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qchar.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qcompilerdetection.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig-bootstrapped.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qgenericatomic.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobalstatic.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qlogging.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qmutex.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qnamespace.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qnumeric.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocessordetection.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qrefcount.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringbuilder.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qsysinfo.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h
 test/CMakeFiles/runTests.dir/runAllTests.cpp.o
  ../test/lib/googletest/googletest/include/gtest/gtest-death-test.h
  ../test/lib/googletest/googletest/include/gtest/gtest-matchers.h

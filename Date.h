@@ -5,11 +5,10 @@
 
 class Date {
 public:
-    Date()=default;
-    Date(int da, int m, int y) : day(da), month(m), year(y) { };
+    Date(int da, int m, int y);
     bool isExistingDate () const;
-    int getMonthLenght () const;
-    int isLeapYear() const ;
+    int isLeapYear() const;
+    int getMonthLenght (int month) const;
 
     bool operator<(const Date& right) const;
     bool operator==(const Date& right) const;
@@ -24,6 +23,8 @@ private:
     int day;
     int month;
     int year;
+
+    bool legalInputsForDate(int d, int m);
 };
 
 

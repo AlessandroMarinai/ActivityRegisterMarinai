@@ -3,8 +3,15 @@
 
 class Time{
 public:
-    Time() = default;
-    Time(int h, int m) : hour(h), minutes(m)  { };
+    Time(int h, int m){
+        if(legalInputsForTime(h,m)){
+            hour = h;
+            minutes = m;
+        }else{
+            hour = -1;
+            minutes = -1;
+        }
+    };
     bool isExistingHour () const {
         bool result = true;
         int h = this->hour;
@@ -37,6 +44,12 @@ public:
 private:
     int hour;
     int minutes;
+    bool legalInputsForTime(int h, int m){
+        bool result = true;
+        if (h<0 || h>23 || m<0 || m>59)
+            result = false;
+        return result;
+    }
 };
 
 #endif //QTHELLOWORLD_TIME_H

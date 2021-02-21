@@ -9,9 +9,14 @@
 
 class Activity {
 public:
-    Activity() = default;
     Activity(Time st, Time e, QString des, Date d):
     start(st), end(e), description(std::move(des)), date(d){}
+
+    Activity(Time st, Time e, Date d): start(st), end(e), date(d){
+        QString noDescription = "";
+        description = noDescription;
+    };
+
 
     const Time &getStart() const {
         return start;

@@ -664,8 +664,6 @@ absl/debugging/symbolize.h
 absl/strings/str_cat.h
 ../test/lib/googletest/googletest/src/absl/strings/str_cat.h
 
-/home/simone/CLionProjects/ActivityRegister/cmake-build-debug/test/lib/googletest/googletest/gtest_autogen/mocs_compilation.cpp
-
 /home/simone/CLionProjects/ActivityRegister/test/lib/googletest/googletest/src/gtest-all.cc
 gtest/gtest.h
 /home/simone/CLionProjects/ActivityRegister/test/lib/googletest/googletest/src/gtest/gtest.h

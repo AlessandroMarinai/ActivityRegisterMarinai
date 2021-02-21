@@ -330,8 +330,6 @@ cxxabi.h
 acxx_demangle.h
 -
 
-/home/simone/CLionProjects/ActivityRegister/cmake-build-debug/test/lib/googletest/googletest/gtest_main_autogen/mocs_compilation.cpp
-
 /home/simone/CLionProjects/ActivityRegister/test/lib/googletest/googletest/src/gtest_main.cc
 cstdio
 -

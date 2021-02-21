@@ -6,5 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/simone/CLionProjects/ActivityRegister/cmake-build-debug/core_autogen/mocs_compilation.cpp
+/home/simone/CLionProjects/ActivityRegister/Date.cpp
+Date.h
+/home/simone/CLionProjects/ActivityRegister/Date.h
+
+/home/simone/CLionProjects/ActivityRegister/Date.h
+Time.h
+/home/simone/CLionProjects/ActivityRegister/Time.h
+
+/home/simone/CLionProjects/ActivityRegister/Time.h
 

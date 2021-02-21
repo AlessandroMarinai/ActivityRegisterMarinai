@@ -18,6 +18,11 @@
 			"EWIEGA46WW/moc_Date.cpp"
 		],
 		[
+			"/home/simone/CLionProjects/ActivityRegister/Register.h",
+			"Mu",
+			"EWIEGA46WW/moc_Register.cpp"
+		],
+		[
 			"/home/simone/CLionProjects/ActivityRegister/Time.h",
 			"Mu",
 			"EWIEGA46WW/moc_Time.cpp"

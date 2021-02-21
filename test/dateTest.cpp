@@ -13,28 +13,28 @@ TEST (Date, YearMultipleOf100) { //
 }
 
 TEST (Date, YearMultipleOf400) { //
-    Date d(1,1,2000);
+    Date d(1,1,2400);
     ASSERT_EQ(1, d.isLeapYear());
 }
 
 TEST (Date, MonthLenght30) {
     Date d(1,11,0);
-    ASSERT_EQ(30, d.getMonthLenght());
+    ASSERT_EQ(30, d.getMonthLenght(d.getMonth()));
 }
 
 TEST (Date, MonthLenght31) {
     Date d(1,1,0);
-    ASSERT_EQ(31, d.getMonthLenght());
+    ASSERT_EQ(31, d.getMonthLenght(d.getMonth()));
 }
 
 TEST (Date, MonthLenght29) {
     Date d(1,2,2000);
-    ASSERT_EQ(29, d.getMonthLenght());
+    ASSERT_EQ(29, d.getMonthLenght(d.getMonth()));
 }
 
 TEST (Date, MonthLenght28) {
     Date d(1,2,2001);
-    ASSERT_EQ(28, d.getMonthLenght());
+    ASSERT_EQ(28, d.getMonthLenght(d.getMonth()));
 }
 
 TEST (Date, NonExistingMonth){
@@ -59,7 +59,7 @@ TEST (Date, NonExistingDayInLeapYear) {
 }
 
 TEST (Date, ExistingDate) {
-    Date d1(29, 2, 2000);
+    Date d1(29, 6, 2004);
     ASSERT_TRUE(d1.isExistingDate());
     Date d2(31, 1, 2020);
     ASSERT_TRUE(d2.isExistingDate());

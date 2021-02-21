@@ -1,5 +1,17 @@
 #include "Date.h"
 
+Date::Date(int da, int m, int y) {
+    if (legalInputsForDate(da, m)) {
+        day = da;
+        month = m;
+        year = y;
+    } else {
+        day = -1;
+        month = -1;
+        year = -1;
+    }
+}
+
 int Date::isLeapYear() const { //restituisce 1 se bisestile
     int y = this->year;
     int result = 0;
@@ -12,21 +24,22 @@ int Date::isLeapYear() const { //restituisce 1 se bisestile
     return result;
 }
 
-int Date::getMonthLenght() const {
-    int m = this->month;
+int Date::getMonthLenght(int m) const {
     int result = 31;
     if ( m==4 || m==6 || m==9 || m==11 )
         result = 30;
-    if ( m==2)
+    if ( m==2 )
         result = 28 + this->isLeapYear();
     return result;
 }
+
+
 
 bool Date::isExistingDate() const {
     bool result = true;
     int d = this->day;
     int m = this->month; //uso queste variabili per evitare un'eccessiva verbosità
-    if( d<1 || d>this->getMonthLenght() || m<1 || m>12)
+    if( d<1 || d>this->getMonthLenght(m) || m<1 || m>12)
         result = false;
     return result;
 }
@@ -38,6 +51,8 @@ bool Date::operator<(const Date &right) const {
         result = false;
     return result;
 }
+
+
 
 bool Date::operator==(const Date &right) const {
     return year==right.year && month==right.month && day==right.day;
@@ -54,4 +69,13 @@ int Date::getMonth() const {
 int Date::getYear() const {
     return year;
 }
+
+bool Date::legalInputsForDate(int d, int m) {
+    bool result = true;
+    if( d<1 || d>this->getMonthLenght(m) || m<1 || m>12)
+        result = false;
+    return result;
+}
+
+
 

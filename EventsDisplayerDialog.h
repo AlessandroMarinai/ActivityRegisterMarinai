@@ -2,13 +2,14 @@
 #define QTHELLOWORLD_EVENTSDISPLAYERDIALOG_H
 
 #include "Register.h"
+#include "Controller.h"
 #include <QString>
 
 class EventsDisplayerDialog : public QDialog {
 Q_OBJECT
 
 public:
-    EventsDisplayerDialog(MainDialog* dialog, Register *r): mainLayout(new QVBoxLayout) ,aRegister(r), mainDialog(dialog){};
+    EventsDisplayerDialog(MainDialog* dialog, Register *r): mainLayout(new QVBoxLayout) , aRegister(r), mainDialog(dialog){};
 
     void addNewActivityToShow(const Activity& a, int num);
 

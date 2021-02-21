@@ -213,6 +213,33 @@ dateTest.cpp.s:
 	cd /home/simone/CLionProjects/ActivityRegister/cmake-build-debug && $(MAKE) -f test/CMakeFiles/runTests.dir/build.make test/CMakeFiles/runTests.dir/dateTest.cpp.s
 .PHONY : dateTest.cpp.s
 
+registerTest.o: registerTest.cpp.o
+
+.PHONY : registerTest.o
+
+# target to build an object file
+registerTest.cpp.o:
+	cd /home/simone/CLionProjects/ActivityRegister/cmake-build-debug && $(MAKE) -f test/CMakeFiles/runTests.dir/build.make test/CMakeFiles/runTests.dir/registerTest.cpp.o
+.PHONY : registerTest.cpp.o
+
+registerTest.i: registerTest.cpp.i
+
+.PHONY : registerTest.i
+
+# target to preprocess a source file
+registerTest.cpp.i:
+	cd /home/simone/CLionProjects/ActivityRegister/cmake-build-debug && $(MAKE) -f test/CMakeFiles/runTests.dir/build.make test/CMakeFiles/runTests.dir/registerTest.cpp.i
+.PHONY : registerTest.cpp.i
+
+registerTest.s: registerTest.cpp.s
+
+.PHONY : registerTest.s
+
+# target to generate assembly for a file
+registerTest.cpp.s:
+	cd /home/simone/CLionProjects/ActivityRegister/cmake-build-debug && $(MAKE) -f test/CMakeFiles/runTests.dir/build.make test/CMakeFiles/runTests.dir/registerTest.cpp.s
+.PHONY : registerTest.cpp.s
+
 runAllTests.o: runAllTests.cpp.o
 
 .PHONY : runAllTests.o
@@ -311,6 +338,9 @@ help:
 	@echo "... dateTest.o"
 	@echo "... dateTest.i"
 	@echo "... dateTest.s"
+	@echo "... registerTest.o"
+	@echo "... registerTest.i"
+	@echo "... registerTest.s"
 	@echo "... runAllTests.o"
 	@echo "... runAllTests.i"
 	@echo "... runAllTests.s"

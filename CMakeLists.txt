@@ -13,8 +13,8 @@ find_package(Qt5Widgets)
 
 add_subdirectory(test)
 
-set(SOURCE_FILES Date.h Time.h Date.cpp Activity.h)
-add_executable(ActivityRegister main.cpp MainDialog.h MainDialog.cpp Activity.h Register.h Date.h Time.h Date.cpp AddNewActivityDialog.cpp AddNewActivityDialog.h SavedOrNotDialog.h SavedOrNotDialog.cpp EventsDisplayerDialog.cpp EventsDisplayerDialog.h Register.h)
+set(SOURCE_FILES Date.h Time.h Date.cpp Activity.h Register.h)
+add_executable(ActivityRegister main.cpp MainDialog.h MainDialog.cpp Activity.h Controller.h Date.h Time.h Date.cpp AddNewActivityDialog.cpp AddNewActivityDialog.h SavedOrNotDialog.h SavedOrNotDialog.cpp EventsDisplayerDialog.cpp EventsDisplayerDialog.h Controller.h )
 add_library(core ${SOURCE_FILES})
 target_link_libraries(ActivityRegister Qt5::Widgets)
 
