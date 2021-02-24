@@ -12,7 +12,7 @@ void EventsDisplayerDialog::showEventsOnData() {
                         QString::number(date.getMonth()) + "/" + QString::number(date.getYear());
         setWindowTitle(title);
         bool found = false;
-        for (auto &it : *activities) {
+        for (auto &it : activities) {
             if (it.first == date) {
                 addNewActivityToShow(it.second, numOfActivitiesShown);
                 found = true;

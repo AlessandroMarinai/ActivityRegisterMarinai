@@ -6,17 +6,17 @@
 
 class Register{
 public:
-    Register(): activities(new std::multimap<Date,Activity>){};
+    Register(): activities(std::multimap<Date,Activity>()){};
     void addActivity(const Activity& a){
-        activities->insert(std::pair<Date,Activity>(a.getDate(),a));
+        activities.insert(std::pair<Date,Activity>(a.getDate(),a));
     };
 
-    std::multimap<Date, Activity> *getActivities() const {
+    std::multimap<Date, Activity> getActivities() const {
         return activities;
     }
 
 private:
-    std::multimap<Date,Activity> *activities;
+    std::multimap<Date,Activity> activities;
 };
 
 #endif //ACTIVITYREGISTER_REGISTER_H
